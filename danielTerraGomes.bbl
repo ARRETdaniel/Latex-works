@@ -1,0 +1,52 @@
+\begin{thebibliography}{Wam21}
+
+\bibitem[Ale13]{alexander2013scala}
+Alvin Alexander.
+\newblock {\em Scala cookbook}.
+\newblock O'Reilly, Sebastopol, CA, 2013.
+
+\bibitem[Dro12]{web}
+Sadek Drobi.
+\newblock Play2: A new era of web application development.
+\newblock {\em IEEE Internet Computing}, 16(4), 2012.
+
+\bibitem[Ela19]{Elahi}
+Irfan Elahi.
+\newblock {\em Scala Programming for Big Data Analytics}.
+\newblock APRESS L.P., Notting Hill, VIC, Australia, 1 edition, July 2019.
+
+\bibitem[Hav14]{Data2}
+Klaus Havelund.
+\newblock Data automata in scala.
+\newblock In {\em 2014 Theoretical Aspects of Software Engineering Conference},
+  2014.
+
+\bibitem[Nic17]{9781787122383}
+Patrick~R. Nicolas.
+\newblock {\em Scala for Machine Learning, Second Edition}.
+\newblock Packt Publishing, September 2017.
+
+\bibitem[Ray13]{Nilanjan}
+Nilanjan Raychaudhuri.
+\newblock {\em Scala in Action: Covers Scala 2.10}.
+\newblock MANNING PUBN, Shelter Island, NY, 2 edition, April 2013.
+
+\bibitem[Wam21]{Wampler2021}
+Dean Wampler.
+\newblock {\em Programming Scala}.
+\newblock O'Reilly Media, Inc., Sebastopol, CA, 3 edition, July 2021.
+
+\bibitem[Wha20]{Whaling}
+Richard Whaling.
+\newblock {\em Modern Systems Programming with Scala Native: Write Lean,
+  High-Performance Code Without the Jvm}.
+\newblock PRAGMATIC BOOKSHELF, 1 edition, February 2020.
+
+\bibitem[Xia20]{Data1}
+Guangming Xian.
+\newblock Parallel machine learning algorithm using fine-grained-mode spark on
+  a mesos big data cloud computing software framework for mobile robotic
+  intelligent fault recognition.
+\newblock {\em IEEE Access}, 8, 2020.
+
+\end{thebibliography}

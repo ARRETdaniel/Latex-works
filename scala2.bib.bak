@@ -1,0 +1,98 @@
+% Encoding: UTF-8
+
+@book{Wampler2021,
+  author    = {Wampler, Dean},
+  publisher = {O'Reilly Media, Inc.},
+  title     = {Programming Scala},
+  year      = {2021},
+  address   = {Sebastopol, CA},
+  edition   = {3},
+  isbn      = {1492077895},
+  month     = jul,
+  date      = {2021-07-01},
+  ean       = {9781492077893},
+  subtitle  = {Scalability = Functional Programming + Objects},
+  url       = {https://www.ebook.de/de/product/40249117/dean_wampler_programming_scala.html}
+}
+
+@book{Nilanjan,
+  author    = {Raychaudhuri, Nilanjan},
+  publisher = {MANNING PUBN},
+  title     = {Scala in Action: Covers Scala 2.10},
+  year      = {2013},
+  address   = {Shelter Island, NY},
+  edition   = {2},
+  isbn      = {978-1935182757},
+  month     = apr,
+  ean       = {9781935182757},
+  pagetotal = {419},
+  url       = {https://www.ebook.de/de/product/16295015/nilanjan_raychaudhuri_scala_in_action_covers_scala_2_10.html}
+}
+
+@book{Elahi,
+  author    = {Elahi, Irfan},
+  publisher = {APRESS L.P.},
+  title     = {Scala Programming for Big Data Analytics},
+  year      = {2019},
+  address   = {Notting Hill, VIC, Australia},
+  edition   = {1},
+  isbn      = {1484248090},
+  month     = jul,
+  ean       = {9781484248096},
+  url       = {https://www.ebook.de/de/product/35622373/irfan_elahi_scala_programming_for_big_data_analytics.html}
+}
+
+@book{Whaling,
+  author    = {Whaling, Richard},
+  publisher = {PRAGMATIC BOOKSHELF},
+  title     = {Modern Systems Programming with Scala Native: Write Lean, High-Performance Code Without the Jvm},
+  year      = {2020},
+  edition   = {1},
+  isbn      = {978-1680506228},
+  month     = feb,
+  ean       = {9781680506228},
+  pagetotal = {230},
+  url       = {https://www.ebook.de/de/product/33631728/richard_whaling_modern_systems_programming_with_scala_native_write_lean_high_performance_code_without_the_jvm.html}
+}
+@article{Data1,
+  author  = {Xian, Guangming},
+  journal = {IEEE Access},
+  title   = {Parallel Machine Learning Algorithm Using Fine-Grained-Mode Spark on a Mesos Big Data Cloud Computing Software Framework for Mobile Robotic Intelligent Fault Recognition},
+  year    = {2020},
+  volume  = {8},
+  number  = {},
+  doi     = {10.1109/ACCESS.2020.3007499}
+}
+
+@inproceedings{Data2,
+  author    = {Havelund, Klaus},
+  booktitle = {2014 Theoretical Aspects of Software Engineering Conference},
+  title     = {Data Automata in Scala},
+  year      = {2014},
+  volume    = {},
+  number    = {},
+  doi       = {10.1109/TASE.2014.37}
+}
+
+@article{web,
+  author  = {Drobi, Sadek},
+  journal = {IEEE Internet Computing},
+  title   = {Play2: A New Era of Web Application Development},
+  year    = {2012},
+  volume  = {16},
+  number  = {4},
+  doi     = {10.1109/MIC.2012.84}
+}
+
+@Book{alexander2013scala,
+  author    = {Alexander, Alvin},
+  publisher = {O'Reilly},
+  title     = {Scala cookbook},
+  year      = {2013},
+  address   = {Sebastopol, CA},
+  isbn      = {9781449339616},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+@Comment{jabref-meta: fileDirectoryLatex-danie-Legion:C:\\Users\\danie\\Documents\\Faculdade\\21-2_Paradigmas\\Scala\\ASCV-Scala;}

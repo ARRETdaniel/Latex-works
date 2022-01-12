@@ -1,0 +1,272 @@
+% Prof. Dr. Ausberto S. Castro Vera
+% UENF - CCT - LCMAT - Curso de Ci\^{e}ncia da Computa\c{c}\~{a}o
+% Campos, RJ,  2020
+% Disciplina: Paradigmas de Linguagens de Programa\c{c}\~{a}o
+% Aluno:
+
+
+\chapterimage{ScalaH} % Chapter heading image ==>  Trocar este arquivo por outro 1200x468
+\chapter{ Conceitos b\'{a}sicos da Linguagem Scala}
+
+\begin{quote}
+  Iniciando na linguagem Scala. Como já introduzido no capítulo anterior, Scala é bem similar a linguagem Java, sabendo que as duas fazem uso do Java Virtual Machine(JVM) para fazer a execução dos códigos desenvolvidos. Portanto, para os leitores desse material que já são  familiarizados com a linguagem Java não terão dificuldades para entender como se desenvolve em Scala.
+  \cite{Wampler2021}
+\end{quote}
+%%%%%%%%=================================
+\section{Vari\'{a}veis e constantes}
+%%%%%%%%=================================
+\begin{quote}
+  Variáveis reservam lugar em memória para serem usados durante a execução do programa. A linguagem Scala possui dos tipos de variáveis; "Imutáveis" e “mutáveis”.
+  Sendo, imutáveis variáveis que não podem ter o seu valor alterado durante a execução do programa, esse tipo de variável é declarada com a palavra chave {\color{red}(val)}. Por outro lado, mutáveis podem ser alteradas durante a execução, declaradas com {\color{red}(var)}.
+  \cite{Wampler2021}
+\end{quote}
+\begin{quote}
+  \hspace{2.5mm} Exemplos de variáveis imutáveis e mutáveis:
+
+  \begin{lstlisting}
+    object Main {
+  def main(args: Array[String]) {
+      val b: Int = 230 // Imutaveis
+      var c: Long = 9223372036854775807 // mutaveis
+  }
+}
+    \end{lstlisting}
+
+\end{quote}
+%%%%%%%%=================================
+%\vspace{20mm} %%%%%%%%%%%%%%%%%%%distance between section
+\section{Palavras reservadas}
+%%%%%%%%=================================
+\begin{quote}
+  São um conjunto de palavras ou caracteres que são de uso exclusivo da linguagem. Essas palavras chaves não podem ser usadas como nome de variáveis.
+  \cite{Wampler2021}
+
+\end{quote}
+%%\begin{itemize}
+\begin{quote}
+  \hspace{2.5mm} Palavras chaves em Scala:
+
+  \begin{tabular}{ |c|c|c|c| }
+    \hline
+    \multicolumn{3}{|c|}{Palavras chaves} \\
+    \hline
+    abstract  & throw   & try             \\
+    \hline
+    class     & catch   & super           \\
+    \hline
+    override  & private & extends         \\
+    \hline
+    for       & import  & null            \\
+    \hline
+    this      & case    & trait           \\
+    \hline
+    protected & return  & sealed          \\
+    \hline
+    true      & type    & val             \\
+    \hline
+    while     & with    & yield           \\
+    \hline
+    def       & do      & else            \\
+    \hline
+    false     & final   & finally         \\
+    \hline
+    forSome   & if      & implicit        \\
+    \hline
+    lazy      & match   & new             \\
+    \hline
+    object    & var     & package         \\
+    \hline
+    -         & :       & =               \\
+    \hline
+    <-        & </      & <:              \\
+    \hline
+    % @ & # & =>	\\
+    \hline
+    >:        & @       & =>              \\
+    \hline
+  \end{tabular}
+
+  %%\end{itemize}
+\end{quote}
+%%%%%%%%=================================
+\section{Tipos de Dados B\'{a}sicos}
+%%%%%%%%=================================
+
+\begin{quote}
+  %%%%%%%%=================================
+  Os tipos de dados básicos da linguagem Scala são objetos e são categorizados da seguinte forma: Int, Byte, Short,  Long, Float, Double, Char, String, Boolean, Unit, Null, Nothing, AnyRef, Any.
+  Sabendo que, os tipos de dados em Scala não tem tipo primitivo como no Java. Portanto, é possível chamar métodos em Long, Int, etc.
+  \cite{Wampler2021}
+\end{quote}
+
+\begin{quote}
+  \hspace{2.5mm} Tipo de dados em Scala:
+
+  \begin{tabular}{ |c|c|c| }
+    \hline
+    Tipo de Dado & Descrição                                                         \\
+    \hline
+    Int          & 32 bit signed value. Tamanho -2147483648 até 2147483647           \\
+    \hline
+    Boolean      & true ou false                                                     \\
+    \hline
+    Byte         & 8 bit signed value. Tamanho -128 até 127                          \\
+    \hline
+    Short        & 16 bit signed value. Tamanho -32768 até 32767                     \\
+    \hline
+    Int          & 32 bit signed value. Tamanho -2147483648 até 2147483647           \\
+    \hline
+    Long         & 64 bit signed value. -9223372036854775808 ate 9223372036854775807 \\
+    \hline
+    Float        & 32 bit IEEE 754 single-precision float                            \\
+    \hline
+    Double       & 64 bit IEEE 754 double-precision float                            \\
+    \hline
+    Char         & 16 bit unsigned Unicode character. Tamanho de U+0000 to U+FFFF    \\
+    \hline
+    String       & Sequencia de caracteres                                           \\
+    \hline
+    Unit         & Sem valores correspondente                                        \\
+    \hline
+    Null         & null ou referência vazia                                          \\
+    \hline
+    Nothing      & Sub-tipo de qualquer outro valor; incluindo sem valores           \\
+    \hline
+    Any          & Sub-tipo de qualquer outro valor; Qualquer objeto é do tipo An    \\
+    \hline
+  \end{tabular}
+\end{quote}
+
+\begin{quote}
+  \hspace{2.5mm} Exemplos de tipo de dados em Scala:
+
+  \begin{lstlisting}
+    object Main {
+  def main(args: Array[String]) {
+      val a: Byte = 4
+      val b: Int = 230
+      val c: Long = 9223372036854775807
+      val d: Short = -32768
+      val e: Double = 742.0
+  }
+}
+    \end{lstlisting}
+
+  Importante mencionar que se o tipo de dado não for mencionado o compilador ira detectá-lo automaticamente.
+\end{quote}
+
+
+%%%........................
+%\subsection{String}
+
+%%%%%%%%=================================
+\section{Operadores e Express\~{o}es em Scala}
+%%%%%%%%=================================
+\begin{quote}
+  Tudo em Scala pode se dizer uma expressão apenas {\color{red}(val)} e {\color{red}(class)} que não. Podemos dizer que uma expressão retornará um valor. Normalmente, é evitado fazer uso de Loops na linguagem Scala. Pois pode trazer problemas ao programa se mal implementado.
+  \cite{Wampler2021}
+\end{quote}
+
+\begin{quote}
+Exemplos de expressões em Scala:
+\begin{itemize}
+
+  \item Expressão If:
+
+\begin{lstlisting}
+val someCondition = true
+val conditionedValue = if(someCondition) 10 else 5
+\end{lstlisting}
+
+  \item Expressão if/else:
+
+Uma outra forma de se usar condicional {\color{red}(if)}:
+
+\begin{lstlisting}
+  if x < 10 then
+    println("negative")
+  else if x == 10 then
+   println("10")
+  else
+    println("Nao eh igual a 10")
+\end{lstlisting}
+
+\item Expressão Loop While:
+
+\begin{lstlisting}
+var i = 0
+  while(i < 11) {
+    println(i)
+    i += 1
+  }
+\end{lstlisting}
+
+\item Expressão Loop for:
+
+
+\begin{lstlisting}
+var ints = List(1, 2, 3)
+  for i <- ints do println(i)
+\end{lstlisting}
+
+
+\item Expressão Match:
+
+\begin{lstlisting}
+val a = Person("Daniel")
+
+a match
+  case Person(name) if name == "Daniel" =>
+    println(s"$name says, Name found")
+
+  case Person(name) if name == "Daniel T." =>
+    println(s"$name says, Name found!")
+\end{lstlisting}
+
+\item Expressão  try/catch/finally:
+\begin{lstlisting}
+try
+  arquivoEscrita(text)
+catch
+  case nho: IOException => println("Palavras com
+  final nho.")
+  case lho: NumberFormatException => println("Pala
+  vras com final lho.")
+finally
+  println("Fim").
+
+\end{lstlisting}
+
+
+
+
+
+\end{itemize}
+\end{quote}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{quote}
+  %\hspace{2.5mm}
+Operadores condicionais:
+
+  \begin{tabular}{ |c|c|c| }
+    \hline
+    Operador & Operação       & descrição                                           \\
+    \hline
+    ee       & e              & Os dois valores da operação são verdadeiros.        \\
+    \hline
+    ||       & ou             & Pelo menos um dos valores é verdadeiro.             \\
+    \hline
+    >        & maior que      & O valor da esquerda é maior que o da direita.       \\
+    \hline
+    >=       & maior ou igual & O valor da esquerda é maior ou igual ao da direita. \\
+    \hline
+    <        & menor que      & O valor da esquerda é menor que o da direita.       \\
+    \hline
+    <=       & menor ou igual & O valor da esquerda é menor ou igual ao da direita. \\
+    \hline
+    ==       & igual          & Os dois valores são iguais.                         \\
+    \hline
+    !=       & diferetens     & Os valores são diferentes.                          \\
+    \hline
+  \end{tabular}
+\end{quote}

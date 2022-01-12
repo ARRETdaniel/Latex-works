@@ -1,0 +1,304 @@
+% Prof. Dr. Ausberto S. Castro Vera
+% UENF - CCT - LCMAT - Curso de Ci\^{e}ncia da Computa\c{c}\~{a}o
+% Campos, RJ,  2020
+% Disciplina: Paradigmas de Linguagens de Programa\c{c}\~{a}o
+% Aluno:
+
+
+\chapterimage{ScalaH} % Chapter heading image ==>  Trocar este arquivo por outro 1200x468
+\chapter{ Programa\c{c}\~{a}o em Scala}
+
+
+%%%%%%%%======================
+\section{Entradas e sa\'{\i}das}
+%%%%%%%%======================
+\begin{quote}
+  Como já mencionado Scala é muito semelhante à linguagem Java e ambos usam Java Virtual Machine (JVM) para executar o código. Portanto, Scala está próximo da linguagem Java.
+  \cite{Wampler2021}
+  
+  \hspace{2.5mm}Exemplo de saida de um Println:
+
+  \begin{lstlisting}
+  object Hallo{
+    def main(args: Array[String]) {
+      println("Hallo Welt!")
+    }
+  }
+  \end{lstlisting}
+
+  \hspace{2.5mm}Exemplo de saida e entrada Scala:
+
+
+  \begin{lstlisting}
+  object Entrada extends App {
+
+      print("Primeiro nome: ")
+      val pNome = readLine()
+
+      print("Segundo nome: ")
+      val sNome = readLine()
+
+      println(s"Nome completo $pNome $sNome")
+
+  }
+  \end{lstlisting}
+
+\end{quote}
+
+%\subsection{Entrada e Sa\'{\i}da formatada}
+
+
+%%%%%%%%======================
+\section{Sele\c{c}\~{a}o}
+%%%%%%%%======================
+\begin{quote}
+  Seleção é usado para tomar uma decisão com base nas condições. Um trecho de código é executado ou não é executado com base em uma condição especificada. Isso controla o fluxo de execução do programa permitindo decidir os passs seguintes.
+  \cite{Wampler2021}
+  \hspace{2.5mm} Exemplos de Seleção em Scala:
+
+  \begin{itemize}
+    \item if
+    \item if-else
+    \item Nested if-else
+    \item if-else if ladder
+  \end{itemize}
+
+  \hspace{2.5mm}Exemplo de Instruções:
+
+  \begin{itemize}
+
+    \item if/else:
+
+          \begin{lstlisting}
+    if x < 10 then
+      println("negative")
+    else if x == 10 then
+     println("10")
+    else
+      println("Nao eh igual a 10")
+  \end{lstlisting}
+
+    \item Nested if-else:
+
+          \begin{lstlisting}
+
+  object teste {
+
+  def main(args: Array[String]) {
+
+      var a: Int = 20
+      var b: Int = 100
+      var c: Int = 200
+
+      if (a > b) // condition1
+      {
+          if(a > c) // condition2
+          {
+              println("o maior (a)");
+          }
+
+          else
+          {
+              println("o maior (c)")
+          }
+
+      }
+
+      else
+      {
+
+          if(b > c)  // condition3
+          {
+              println("o maior (b)")
+          }
+
+          else
+          {
+              println("o maior (c)")
+          }
+      }
+  }
+  \end{lstlisting}
+  \end{itemize}
+\end{quote}
+
+
+
+
+
+%%%%%%%%======================
+\section{Repeti\c{c}\~{a}o}
+%%%%%%%%======================
+\begin{quote}
+  Repetições são uma parte muito importante de qualquer linguagem de programação. Isso nos permite executar um conjunto de código várias vezes.
+  \cite{Wampler2021}
+
+  \hspace{2.5mm}Exemplos de repetições em Scala:
+
+  \begin{itemize}
+
+    \item While
+    \item Do while
+    \item For
+
+  \end{itemize}
+
+  \hspace{2.5mm}Exemplo de Instruções:
+
+  \begin{itemize}
+    \item for:
+
+
+          \begin{lstlisting}
+      var ints = List(1, 2, 3)
+        for i <- ints do println(i)
+      \end{lstlisting}
+
+    \item while:
+
+          \begin{lstlisting}
+      var i = 0
+        while(i < 11) {
+          println(i)
+          i += 1
+        }
+      \end{lstlisting}
+  \end{itemize}
+\end{quote}
+%%%%%%%%======================
+\section{Classes e Objetos}
+%%%%%%%%======================
+\begin{quote}
+  As classes são projetos para a criação de objetos. Quando definimos uma classe, podemos então criar novos objetos (instâncias) da classe.
+  \cite{Wampler2021}Portanto,
+  \begin{itemize}
+  \item Classe é um projeto de um objeto.
+  \item Objeto nada mais é do que uma instância de uma classe.
+  \end{itemize}
+  \hspace{2.5mm} Exemplo de Classes e seus objetos em Scala:
+
+  \begin{lstlisting}
+  class Empregado(idc:Int,namec:String) {
+      var ID:Int=idc
+      var nome:String=namec
+
+      def getNome(): String =
+      {
+         nome
+      }
+
+  }
+
+  object Main {
+    def main(args: Array[String]): Unit = {
+      val empr1:Empregado =new Empregado(23,"Daniel")
+      val empr2:Empregado =new Empregado(23,"Terra")
+      print(emp1.getNome())
+
+    }
+  }
+  \end{lstlisting}
+
+\end{quote}
+
+%%%%%%%%======================
+\section{Fun\c{c}\~{o}es}
+%%%%%%%%======================
+\begin{quote}
+  Scala também oferece suporte a uma abordagem de programação funcional. Portanto, possui funções integradas e também permite criar funções personalizadas.
+  Funções são valores principais em Scala. Dessa forma, é possível armazenar o valor de uma função, passar uma função como um argumento e retornar uma função como um valor de outra função. Tornando possível o uso de POO - (Programação Orientada a Objeto).
+  \cite{Wampler2021}
+
+  \begin{itemize}
+    \hspace{2.5mm} Exemplo de Syntax de função em Scala:
+
+    \begin{lstlisting}
+  def funcNome(parameters : type) : return type = {
+   // corpo da funcao
+  }
+  \end{lstlisting}
+
+
+  \hspace{2.5mm} Exemplo de função em Scala:
+
+  \begin{lstlisting}
+    object Main {
+      def printFunc(n:Int): Unit ={
+        if(n<0)
+        return ;
+        println(n)
+        printFun(n-1)
+        }
+
+        def main(args: Array[String]): Unit = {
+          printFun(3);
+          }
+          }
+  \end{lstlisting}
+
+\end{itemize}
+\end{quote}
+
+
+
+%%%%%%%%======================
+\section{Herança}
+%%%%%%%%======================
+\begin{quote}
+Herança é um pilar importante da OOP (Programação Orientada a Objetos). É o mecanismo em Scala pelo qual uma classe pode herdar as funções de outras classes.
+\cite{Wampler2021}
+
+\hspace{2.5mm}Informações Importantes:
+
+\begin{itemize}
+
+\item Superclasse: a classe cujas características são herdadas é conhecida como superclasse ou uma classe base ou uma classe pai.
+
+\item Subclasse: a classe que a outra classe herda é chamada de subclasse ou uma classe derivada, classe estendida ou classe filha. A subclasse pode adicionar seus próprios campos e métodos, além dos campos e métodos da superclasse.
+
+\item Reutilização: a herança apóia o conceito de polimofismo;  se quisermos criar uma nova classe e já houver uma classe que contenha parte do código que desejamos, podemos derivar nossa nova classe da classe existente. Desta forma, reutilizamos os campos e métodos da classe existente.
+
+\end{itemize}
+
+\hspace{2.5mm} Exemplo da Syntax de Herança em Scala:
+
+\begin{lstlisting}
+class parent_class_name extends child_class_name{
+// metodos etc
+}
+\end{lstlisting}
+
+\hspace{2.5mm} Exemplo de Herança em Scala:
+
+\begin{lstlisting}
+
+class Aluno{
+    var Name: String = "Daniel"
+}
+
+class Aluno1 extends Aluno
+{
+    var num: Int = 20
+
+    def details()// Metodo
+    {
+    println("Nome aluno: " +Nome);
+    println("Total de materias: " +num);
+    }
+}
+
+object Main
+{
+
+    def main(args: Array[String])
+    {
+
+        val ts = new Aluno1();
+        ts.details();
+    }
+}
+\end{lstlisting}
+
+
+
+\end{quote}

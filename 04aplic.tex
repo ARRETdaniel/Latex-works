@@ -1,0 +1,563 @@
+% Prof. Dr. Ausberto S. Castro Vera
+% UENF - CCT - LCMAT - Curso de Ci\^{e}ncia da Computa\c{c}\~{a}o
+% Campos, RJ,  2020
+% Disciplina: Paradigmas de Linguagens de Programa\c{c}\~{a}o
+% Aluno:
+
+
+
+\chapter{ Aplica\c{c}\~{o}es da Linguagem Scala}
+\begin{quote}
+  A seguir serão apresentados um será de aplicações com a Linguagem Scala. Dessa forma, será possível ver na prática o que é possível ser feito na linguagem.
+  \cite{alexander2013scala}
+  \hspace{2.5mm}Entre os exemplos estão os seguintes:
+  \begin{itemize}
+    \item Operações básicas aritmética;
+    \item O algoritmo Quicksort;
+    \item Programa de Cálculo Numérico, equação linear;
+    \item Aplicação usando Matrizes
+    \item Aplicações Profissionais da linguagem de Linear Regression usando Spark.
+  \end{itemize}
+
+
+
+\end{quote}
+
+%%%--------------------------------------------------------------------
+\section{Opera\c{c}\~{o}es b\'{a}sicas}
+%%%--------------------------------------------------------------------
+\begin{quote}
+
+  \hspace{2.5mm}Exemplo algoritmo operador aritmético:
+  \cite{alexander2013scala}
+  \begin{lstlisting}
+      object Atitmetico {
+      // criando o objeto
+        def main(args:Array[String]) {
+          var x = 50;
+          var y = 10;
+            // soma de x + y
+            println("Add of x + y = " + (x + y));
+            // Subitracao entre x e y
+            println("Sub of x - y = " + (x - y));
+            // Multiplicacao dos valores apresentados
+            println("Multi of x * y = " + (x * y));
+            // Divisao x e y
+            println("Divisao of x / y = " + (x / y));
+            // Modulo dos valores
+            println("Mod of x % y = " + (x % y));
+
+        }
+      }
+    \end{lstlisting}
+
+\end{quote}
+%%%--------------------------------------------------------------------
+\section{O algoritmo Quicksort em Scala}
+%%%--------------------------------------------------------------------
+\begin{quote}
+  \hspace{2.5mm}Exemplo algoritmo Quicksort em Scala:
+  \cite{alexander2013scala}
+
+  \begin{lstlisting}
+
+    // Implementa um exemplo para quicksort.
+    // O algoritmo funciona da seguinte maneira:
+    // Mova da esquerda para a direita todos os
+    // valores
+    // que sao menores que
+    // o valor pivo para o
+    // a esquerda de uma divisao flutuante, em que
+    // a divisao
+    // sempre marca
+    // o ponto para
+    // a esquerda disso, todos os valores sao menores
+    // que o pivo.
+    // Mova-se no
+    // final
+    // o valor pivo para a posicao de divisao.
+    // Em seguida,
+    // recursao para
+    // os subarrays
+    // em ambos os lados do ponto de pivo.
+
+
+
+   object Quicksort {
+     def main(args: Array[String]) {
+       var mess = Array(3, 9, 8, 13, 2, 5, 4);
+
+       quicksort(mess, 0, mess.length-1);
+       mess.foreach( println )
+     }
+
+     // Troca dois valores em uma matriz
+     def swap(a: Array[Int], pos1: Int, pos2: Int):
+      Unit = {
+       val stash = a(pos1)
+       a(pos1) = a(pos2)
+       a(pos2) = stash
+     }
+
+     // Executa a classificacao rapida recursiva
+     // em uma matriz
+     // Existe uma opcao para limitar a complexidade
+     // do espaco
+     // para
+     // O (ln (n)) aqui, quando da ultima vez recursiva
+     // na
+     // particao maior
+     // (Recursao da cauda).
+
+     def quicksort(a: Array[Int], low: Int, hi: Int):
+      Unit = {
+       if (low < hi) {
+         val p = partition(a, low, hi)
+         quicksort(a, low, p-1)
+         quicksort(a, p+1, hi)
+       }
+     }
+
+     // Particionar uma matriz em torno de um pivo
+     // Seleciona um pivo, desloca todos os valores
+     // menores que
+     // o pivo para a esquerda e desloca todos
+     // os valores
+     // maior do que o ponto de pivo a direita dele.
+     //
+     // Para otimizacao: escolha um pivo de acordo
+     // com uma
+     // mediana
+     // Valor de uma amostra. Isso ajuda que
+     // O particionamento leva a submatrizes de
+     // tamanhos
+     // semelhantes,
+     // e, portanto, o desempenho ideal de
+     // O (n // ln (n)).
+     //
+     // Indice de retorno (localizacao) do pivo
+     // na matriz
+     // particionada
+
+     def partition(subArray: Array[Int], low: Int,
+      hi: Int):
+       Int = {
+       val pivot = hi;
+       var i = low;
+       for (
+         j <- low to hi
+         if subArray(j) < subArray(pivot)
+       ) {swap(subArray, i, j); i+=1}
+
+       // Finalmente, mova o valor pivo para a linha
+       // divisoria
+       // em i
+       swap(subArray, i, pivot);
+       return i
+     }
+   }
+
+  \end{lstlisting}
+
+\end{quote}
+
+%%%--------------------------------------------------------------------
+\section{Programa de C\'{a}lculo Num\'{e}rico}
+%%%--------------------------------------------------------------------
+\begin{quote}
+  Os seguintes exemplos fazem uso da Biblioteca Apache Commons Math é um projeto
+  Apache que visa resolver os problemas matemáticos e estatísticos mais comuns
+  que não estão disponíveis na linguagem Java padrão. Ele suporta classes de matriz
+  densa e esparsa que são equipadas com operações básicas, bem como algoritmos de
+  decomposição de matriz. \cite{alexander2013scala}
+
+  \hspace{2.5mm}Exemplo algoritmo calculando uma equação linear:
+
+  \begin{lstlisting}
+    // Import biblioteca
+    import org.apache.commons.math3.linear._
+
+    // Crie a matriz
+    val A = new Array2DRowRealMatrix(3, 6)
+
+    // Preencha a matriz com numeros aleatorios
+    val r = new scala.util.Random(0)
+
+    for(i <- 0 until A.getRowDimension())
+        for(j <- 0 until A.getColumnDimension())
+            A.setEntry(i, j, r.nextDouble())
+
+    // Defina o primeiro valor como o ultimo valor
+    A.setEntry(0, 0,
+        A.getEntry(A.getRowDimension() - 1, A.
+          getColumnDimension() - 1))
+
+    // Obtenha uma submatriz, 1 linha a 3 linha,
+    // 1 coluna a 3 coluna
+    val B = A.getSubMatrix(0, 2, 0, 2)
+
+    // Resolva a equacao linear
+    val solver = new LUDecomposition(B).getSolver()
+    val a = A.getColumnVector(0)
+    val x = solver.solve(a)
+   \end{lstlisting}
+\end{quote}
+%%%--------------------------------------------------------------------
+\section{Aplica\c{c}\~{a}o usando Matrizes}
+%%%--------------------------------------------------------------------
+\begin{quote}
+  \hspace{2.5mm}Exemplo algoritmo calculo de produto de matrizes:
+  \cite{alexander2013scala}
+  \begin{lstlisting}
+    // Obtenha uma submatriz, 1 linha a 3
+    // linha, 1 coluna a
+    // 3 coluna
+    val B = A.getSubMatrix(0, 2, 0, 2)
+
+    // Defina uma sub-matriz de A a B, da
+    // 1 linha a 3 linha,
+    // 2 coluna a 4 coluna
+    A.setSubMatrix(B.getData(), 0, 1)
+
+    // Produto de matriz C = A'B
+    val C = A.transpose().multiply(B)
+
+  \end{lstlisting}
+\end{quote}
+%%%--------------------------------------------------------------------
+\section{Aplica\c{c}\~{o}es Profissionais}
+%%%--------------------------------------------------------------------
+
+\begin{quote}
+  \hspace{2.5mm} Aplicações de Linear Regression usando Spark desenvolvido em Scala.
+
+  Nessa aplicação iremos fazer um modelo para predizer a nota de alunos com base na sua nota anterios e seu tempo de estudo.
+  \cite{9781787122383}
+  \begin{lstlisting}
+    //Instale todas as dependencias no ambiente
+    //Apache Spark
+    //2.4.4 with hadoop 2.7, Java 8 e Findspark
+    //para localizar o
+    //Spark no sistema
+    !apt-get install openjdk-8-jdk-headless -qq > /
+    dev/null
+    !wget -q http://apache.osuosl.org/spark/
+    spark-2.4.4/
+    spark-2.4.4-bin-hadoop2.7.tgz
+    !tar xf spark-2.4.4-bin-hadoop2.7.tgz
+    !pip install -q findspark
+
+    // Variaveis de ambiente
+    import os
+    os.environ["JAVA_HOME"] =
+    "/usr/lib/jvm/java-8-openjdk-amd64"
+    os.environ["SPARK_HOME"] =
+    "/content/spark-2.4.4-bin-hadoop2.7"
+
+    //Iniciar sessao do Spark
+    import findspark
+    findspark.init()
+    from pyspark.sql import SparkSession
+    spark =
+    SparkSession.builder.master("local[*]").getOrCreate
+    ()
+    //Carregar o arquivo Student_Grades_Data.csv do
+    //sistema local para o local remoto da colab
+    from google.colab import files
+    files.upload()
+
+    //Carregando o arquivo Student_Grades_Data.csv,
+    // carregado na etapa anterior
+    data = spark.read.csv('Student_Grades_Data.csv',
+     header=True, inferSchema=True)
+
+    //Dando uma olhada no tipo de dados de cada
+    //coluna para ver quais tipos de dados o parametro
+    //inferSchema = TRUE definiu para cada coluna
+    data.printSchema()
+
+    //root
+    // |-- Time_to_Study: integer (nullable = true)
+    // |-- Grades: double (nullable = true)
+
+    //Exibir as primeiras linhas de dados
+    data.show()
+    //+-------------+------+
+    //|Time_to_Study|Grades|
+    //+-------------+------+
+    //|            1|   1.5|
+    //|            5|   2.7|
+    //|            7|   3.1|
+    //|            3|   2.1|
+    //|            2|   1.8|
+    //|            9|   3.9|
+    //|            6|   2.9|
+    //|           12|   4.5|
+    //|           11|   4.3|
+    //|            2|   1.8|
+    //|            4|   2.4|
+    //|            8|   3.5|
+    //|           13|   4.8|
+    //|            9|   3.9|
+    //|           14|   5.0|
+    //|           10|   4.1|
+    //|            6|   2.9|
+    //|           12|   4.5|
+    //|            1|   1.5|
+    //|            4|   2.4|
+    //+-------------+------+
+    //only showing top 20 rows
+
+    //Crie uma matriz de recurso omitindo
+    // a ultima coluna
+    feature_cols = data.columns[:-1]
+    from pyspark.ml.feature import VectorAssembler
+    vect_assembler = VectorAssembler
+    (inputCols=feature_cols,outputCol="features")
+
+    //Utilize o Assembler criado acima
+    //para adicionar a coluna de feicao
+    data_w_features = vect_assembler.transform(data)
+
+    // Exibe os dados com colunas adicionais
+    //denominadas recursos.
+    //Se fosse um problema de regressao linear
+    //multipla, voce poderia ver todos os
+    // valores de variaveis independentes
+    // combinados em uma lista
+    data_w_features.show()
+    //+-------------+------+--------+
+    //|Time_to_Study|Grades|features|
+    //+-------------+------+--------+
+    //|            1|   1.5|   [1.0]|
+    //|            5|   2.7|   [5.0]|
+    //|            7|   3.1|   [7.0]|
+    //|            3|   2.1|   [3.0]|
+    //|            2|   1.8|   [2.0]|
+    //|            9|   3.9|   [9.0]|
+    //|            6|   2.9|   [6.0]|
+    //|           12|   4.5|  [12.0]|
+    //|           11|   4.3|  [11.0]|
+    //|            2|   1.8|   [2.0]|
+    //|            4|   2.4|   [4.0]|
+    //|            8|   3.5|   [8.0]|
+    //|           13|   4.8|  [13.0]|
+    //|            9|   3.9|   [9.0]|
+    //|           14|   5.0|  [14.0]|
+    //|           10|   4.1|  [10.0]|
+    //|            6|   2.9|   [6.0]|
+    //|           12|   4.5|  [12.0]|
+    //|            1|   1.5|   [1.0]|
+    //|            4|   2.4|   [4.0]|
+    //+-------------+------+-------
+    //only showing top 20 rows
+
+    //Selecione apenas recursos e rotulo do conjunto
+    //de dados anterior, pois precisamos dessas duas
+    //entidades para construir o modelo de aprendizado
+    //de maquina
+    finalized_data = data_w_features.select
+    ("features","Grades")
+
+    finalized_data.show()
+
+    //+--------+------+
+    //|features|Grades|
+    //+--------+------+
+    //|   [1.0]|   1.5|
+    //|   [5.0]|   2.7|
+    //|   [7.0]|   3.1|
+    //|   [3.0]|   2.1|
+    //|   [2.0]|   1.8|
+    //|   [9.0]|   3.9|
+    //|   [6.0]|   2.9|
+    //|  [12.0]|   4.5|
+    //|  [11.0]|   4.3|
+    //|   [2.0]|   1.8|
+    //|   [4.0]|   2.4|
+    //|   [8.0]|   3.5|
+    //|  [13.0]|   4.8|
+    //|   [9.0]|   3.9|
+    //|  [14.0]|   5.0|
+    //|  [10.0]|   4.1|
+    //|   [6.0]|   2.9|
+    //|  [12.0]|   4.5|
+    //|   [1.0]|   1.5|
+    //|   [4.0]|   2.4|
+    //+--------+------+
+    //only showing top 20 rows
+
+    //Divida os dados em treinamento e modelo
+    //de teste com 70% obs. indo em
+    //treinamento e 30% em testes
+    train_dataset, test_dataset =
+    finalized_data.randomSplit([0.7, 0.3])
+
+    //Peek into training data
+    train_dataset.describe().show()
+
+    //+-------+------------------+
+    //|summary|            Grades|
+    //+-------+------------------+
+    //|  count|                31|
+    //|   mean|3.3451612903225802|
+    //| stddev|1.1609877144562206|
+    //|    min|               1.5|
+    //|    max|               5.0|
+    //+-------+------------------+
+
+    //Classe de regressao linear de
+    //importacao chamada LinearRegression
+    from pyspark.ml.regression import LinearRegression
+
+    //Crie o objeto de regressao linear
+    //denominado tendo coluna de feicao
+    //como feicoes e coluna de rotulo
+    //como Time_to_Study
+    LinReg = LinearRegression
+    (featuresCol="features", labelCol="Grades")
+
+    //Treine o modelo no treinamento
+    // usando o metodo fit ().
+    model = LinReg.fit(train_dataset)
+
+    //Preveja as notas usando o metodo evulate
+    pred = model.evaluate(test_dataset)
+
+    //Mostrar os valores de Grau previstos
+    //ao lado dos valores de Grau reais
+    pred.predictions.show()
+
+    //+--------+------+------------------+
+    //|features|Grades|        prediction|
+    //+--------+------+------------------+
+    //|   [1.0]|   1.5|1.5663703357117775|
+    //|   [1.0]|   1.5|1.5663703357117775|
+    //|   [2.0]|   1.8|1.8366768043045956|
+    //|   [3.0]|   2.1|2.1069832728974136|
+    //|   [3.0]|   2.1|2.1069832728974136|
+    //|   [4.0]|   2.4| 2.377289741490232|
+    //|   [4.0]|   2.4| 2.377289741490232|
+    //|   [4.0]|   2.4| 2.377289741490232|
+    //|   [7.0]|   3.1| 3.188209147268686|
+    //|   [7.0]|   3.1| 3.188209147268686|
+    //|   [7.0]|   3.1| 3.188209147268686|
+    //|   [8.0]|   3.5|3.4585156158615042|
+    //|   [8.0]|   3.5|3.4585156158615042|
+    //|   [8.0]|   3.5|3.4585156158615042|
+    //|   [9.0]|   3.9|3.7288220844543223|
+    //|  [10.0]|   4.1|3.9991285530471403|
+    //|  [10.0]|   4.1|3.9991285530471403|
+    //|  [12.0]|   4.5| 4.539741490232776|
+    //|  [13.0]|   4.8| 4.810047958825595|
+    //+--------+------+------------------+
+
+    //Descubra o valor do coeficiente
+    coefficient = model.coefficients
+    print ("The coefficient of the model
+    is : %a" %coefficient)
+    //The coefficient of the model is
+    //: DenseVector([0.2703])
+
+    //Descubra o valor de interceptacao
+    intercept = model.intercept
+    print ("The Intercept of the model is
+     : %f" %intercept)
+    //The Intercept of the model is : 1.296064
+
+    //Avalie o modelo usando metricas como
+    // erro medio absoluto (MAE), erro
+    //quadratico medio (RMSE) e R-quadrado
+    from pyspark.ml.evaluation import
+    RegressionEvaluator
+    evaluation = RegressionEvaluator
+    (labelCol="Grades", predictionCol="prediction")
+
+    // Erro de raiz quadrada media
+    rmse = evaluation.evaluate
+    (pred.predictions, {evaluation.metricName: "rmse"})
+    print("RMSE: %.3f" % rmse)
+
+    // Erro Quadrado Medio
+    mse = evaluation.evaluate
+    (pred.predictions, {evaluation.metricName: "mse"})
+    print("MSE: %.3f" % mse)
+
+    // Erro Medio Absoluto
+    mae = evaluation.evaluate
+    (pred.predictions, {evaluation.metricName: "mae"})
+    print("MAE: %.3f" % mae)
+
+    // r2 - coeficiente de determinacao
+    r2 = evaluation.evaluate
+    (pred.predictions, {evaluation.metricName: "r2"})
+    print("r2: %.3f" %r2)
+    //RMSE: 0.069
+    //MSE: 0.005
+    //MAE: 0.056
+    //r2: 0.995
+
+    //Crie um conjunto de dados nao rotulado
+    //para conter apenas a coluna de recurso
+    unlabeled_dataset = test_dataset.select
+    ('features')
+
+    Display the content of unlabeled_dataset
+    unlabeled_dataset.show()
+   // +--------+
+   // |features|
+   // +--------+
+   // |   [1.0]|
+   // |   [1.0]|
+   // |   [2.0]|
+   // |   [3.0]|
+   // |   [3.0]|
+   // |   [4.0]|
+   // |   [4.0]|
+   // |   [4.0]|
+   // |   [7.0]|
+   // |   [7.0]|
+   // |   [7.0]|
+   // |   [8.0]|
+   // |   [8.0]|
+   // |   [8.0]|
+   // |   [9.0]|
+   // |  [10.0]|
+   // |  [10.0]|
+   // |  [12.0]|
+   // |  [13.0]|
+   // +--------+
+
+   //Prever a saida do modelo para dados de
+   //teste novos e nao vistos usando o metodo
+   //transform ()
+   new_predictions =
+   model.transform(unlabeled_dataset)
+
+   //Display the new prediction values
+   new_predictions.show()
+   //+--------+------------------+
+   //|features|        prediction|
+   //+--------+------------------+
+   //|   [1.0]|1.5663703357117775|
+   //|   [1.0]|1.5663703357117775|
+   //|   [2.0]|1.8366768043045956|
+   //|   [3.0]|2.1069832728974136|
+   //|   [3.0]|2.1069832728974136|
+   //|   [4.0]| 2.377289741490232|
+   //|   [4.0]| 2.377289741490232|
+   //|   [4.0]| 2.377289741490232|
+   //|   [7.0]| 3.188209147268686|
+   //|   [7.0]| 3.188209147268686|
+   //|   [7.0]| 3.188209147268686|
+   //|   [8.0]|3.4585156158615042|
+   //|   [8.0]|3.4585156158615042|
+   //|   [8.0]|3.4585156158615042|
+   //|   [9.0]|3.7288220844543223|
+   //|  [10.0]|3.9991285530471403|
+   //|  [10.0]|3.9991285530471403|
+   //|  [12.0]| 4.539741490232776|
+   //|  [13.0]| 4.810047958825595|
+   //+--------+------------------+
+  \end{lstlisting}
+\end{quote}
