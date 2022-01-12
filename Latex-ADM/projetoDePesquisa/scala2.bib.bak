@@ -1,0 +1,60 @@
+% Encoding: UTF-8
+
+@book{Wampler2021,
+  author    = {Wampler, Dean},
+  publisher = {O'Reilly Media, Inc.},
+  title     = {Programming Scala},
+  year      = {2021},
+  address   = {Sebastopol, CA},
+  edition   = {3},
+  isbn      = {1492077895},
+  month     = jul,
+  date      = {2021-07-01},
+  ean       = {9781492077893},
+  subtitle  = {Scalability = Functional Programming + Objects},
+  url       = {https://www.ebook.de/de/product/40249117/dean_wampler_programming_scala.html}
+}
+
+@book{Perrin,
+  author    = {Perrin},
+  publisher = {Manning Publications Co},
+  title     = {Spark in Action, Second Edition},
+  year      = {2020},
+  address   = {Shelter Island, NY},
+  edition   = {2},
+  isbn      = {978-1617295522},
+  month     = jun,
+  ean       = {9781617295522},
+  pagetotal = {576},
+  url       = {https://www.ebook.de/de/product/37705807/jean_georges_perrin_spark_in_action_second_edition.html}
+}
+
+@book{Elahi,
+  author    = {Elahi, Irfan},
+  publisher = {APRESS L.P.},
+  title     = {Scala Programming for Big Data Analytics},
+  year      = {2019},
+  address   = {Notting Hill, VIC, Australia},
+  edition   = {1},
+  isbn      = {1484248090},
+  month     = jul,
+  ean       = {9781484248096},
+  url       = {https://www.ebook.de/de/product/35622373/irfan_elahi_scala_programming_for_big_data_analytics.html}
+}
+
+@book{Whaling,
+  author    = {Whaling, Richard},
+  publisher = {PRAGMATIC BOOKSHELF},
+  title     = {Modern Systems Programming with Scala Native: Write Lean, High-Performance Code Without the Jvm},
+  year      = {2020},
+  edition   = {1},
+  isbn      = {978-1680506228},
+  month     = feb,
+  ean       = {9781680506228},
+  pagetotal = {230},
+  url       = {https://www.ebook.de/de/product/33631728/richard_whaling_modern_systems_programming_with_scala_native_write_lean_high_performance_code_without_the_jvm.html}
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+@Comment{jabref-meta: fileDirectoryLatex-danie-Legion:C:\\Users\\danie\\Documents\\Faculdade\\21-2_Paradigmas\\Scala\\ASCV-Scala;}
