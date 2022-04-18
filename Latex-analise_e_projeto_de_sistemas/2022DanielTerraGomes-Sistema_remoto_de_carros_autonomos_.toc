@@ -42,13 +42,13 @@
 \contentsline {subsection}{\numberline {3.4.2} Cadastro de recursos de terceirizadas}{28}{subsection.3.4.2}%
 \contentsline {subsection}{\numberline {3.4.3} Cadastro de novos funcionários}{28}{subsection.3.4.3}%
 \contentsline {subsection}{\numberline {3.4.4} Diagrama de Caso de Uso}{28}{subsection.3.4.4}%
-\contentsline {subsection}{\numberline {3.4.5} Diagrama de Caso de Uso}{29}{subsection.3.4.5}%
-\contentsline {section}{\numberline {3.5}Modelagem do Sistema}{30}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Modelagem de Processos}{30}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}Diagrama de contexto}{30}{subsection.3.5.2}%
-\contentsline {subsection}{\numberline {3.5.3}Diagrama do sistema }{30}{subsection.3.5.3}%
-\contentsline {subsection}{\numberline {3.5.4}Modelagem de Dados}{31}{subsection.3.5.4}%
-\contentsline {subsection}{\numberline {3.5.5}Diagramas de entidades e relacionamentos}{32}{subsection.3.5.5}%
+\contentsline {section}{\numberline {3.5}Modelagem do Sistema}{29}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Modelagem de Processos}{29}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Diagrama de contexto}{29}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Diagrama do sistema}{30}{subsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.5.4}Diagramas de processos}{31}{subsection.3.5.4}%
+\contentsline {subsection}{\numberline {3.5.5}Modelagem de Dados}{32}{subsection.3.5.5}%
+\contentsline {subsection}{\numberline {3.5.6}Diagramas de entidades e relacionamentos}{32}{subsection.3.5.6}%
 \contentsline {chapter}{\numberline {4}Projeto do Sistema}{35}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Estrat\'{e}gia do Projeto}{35}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Refinamento dos Diagramas DFD e E-R}{35}{section.4.2}%
