@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.8.10)  18 APR 2022 17:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.8.10)  30 APR 2022 18:00
 entering extended mode
 **c:/Users/danie/Documents/Faculdade/Latex-works/Latex-analise_e_projeto_de_sistemas/2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.tex
 (c:/Users/danie/Documents/Faculdade/Latex-works/Latex-analise_e_projeto_de_sistemas/2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.tex
@@ -1275,53 +1275,47 @@ Package pdftex.def Info: Pictures//planejamento.png  used on input line 9.
 
  <./Pictures//planejamento.png>] [12]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 139.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 137.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 139.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 137.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 139.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 137.
 <Pictures//Cronograma.png, id=319, 769.6755pt x 320.397pt>
 File: Pictures//Cronograma.png Graphic file (type png)
 <use Pictures//Cronograma.png>
-Package pdftex.def Info: Pictures//Cronograma.png  used on input line 159.
+Package pdftex.def Info: Pictures//Cronograma.png  used on input line 157.
 (pdftex.def)             Requested size: 426.79134pt x 177.66599pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [13]
-Underfull \hbox (badness 10000) in paragraph at lines 179--179
+ [13 <./Pictures//Cronograma.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 174--174
 []\T1/ptm/m/n/10.95 (+20) Starlink Sa-té-li-tes
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--179
+Underfull \hbox (badness 10000) in paragraph at lines 174--174
 \T1/ptm/m/n/10.95 (+20) de co-mu-ni-ca-ção
  []
 
 
-Underfull \hbox (badness 1953) in paragraph at lines 179--179
+Underfull \hbox (badness 1953) in paragraph at lines 174--174
 \T1/ptm/m/n/10.95 (+20) (Plano Anual Bu-
  []
 
 
-Underfull \hbox (badness 2626) in paragraph at lines 179--179
+Underfull \hbox (badness 2626) in paragraph at lines 174--174
 \T1/ptm/m/n/10.95 (+20) si-ness para to-dos
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--179
+Underfull \hbox (badness 10000) in paragraph at lines 174--174
 \T1/ptm/m/n/10.95 (+20) os 27 es-ta-dos
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--197
+Underfull \hbox (badness 10000) in paragraph at lines 190--192
 []\T1/ptm/b/n/10.95 (+20) Valor to-tal $:
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [14 <./Pictures//Cronograma.png>]) (03Analise.tex [15] [16
+) (03Analise.tex [14] [15] [16
 
 ]
 Cap\'{\i }tulo 3.
@@ -1475,16 +1469,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <Pictures//systemDiagram.drawio.png, id=626, 653.44125pt x 322.20375pt>
 File: Pictures//systemDiagram.drawio.png Graphic file (type png)
 <use Pictures//systemDiagram.drawio.png>
-Package pdftex.def Info: Pictures//systemDiagram.drawio.png  used on input line 1007.
+Package pdftex.def Info: Pictures//systemDiagram.drawio.png  used on input line 1006.
 (pdftex.def)             Requested size: 426.79134pt x 210.44273pt.
-
-Underfull \vbox (badness 3735) has occurred while \output is active []
-
  [29 <./Pictures//casodeuso.drawio.png>]
 <Pictures//sistema.png, id=635, 437.2335pt x 310.0383pt>
 File: Pictures//sistema.png Graphic file (type png)
 <use Pictures//sistema.png>
-Package pdftex.def Info: Pictures//sistema.png  used on input line 1017.
+Package pdftex.def Info: Pictures//sistema.png  used on input line 1016.
 (pdftex.def)             Requested size: 426.79134pt x 302.6433pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1493,7 +1484,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <Pictures//gerenciamento.png, id=643, 531.9072pt x 384.4764pt>
 File: Pictures//gerenciamento.png Graphic file (type png)
 <use Pictures//gerenciamento.png>
-Package pdftex.def Info: Pictures//gerenciamento.png  used on input line 1035.
+Package pdftex.def Info: Pictures//gerenciamento.png  used on input line 1034.
 (pdftex.def)             Requested size: 426.79134pt x 308.50845pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1502,7 +1493,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <Pictures//cliente.png, id=654, 448.074pt x 349.7868pt>
 File: Pictures//cliente.png Graphic file (type png)
 <use Pictures//cliente.png>
-Package pdftex.def Info: Pictures//cliente.png  used on input line 1057.
+Package pdftex.def Info: Pictures//cliente.png  used on input line 1056.
 (pdftex.def)             Requested size: 426.79134pt x 333.17624pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1511,12 +1502,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <Pictures//acidente.png, id=664, 417.7206pt x 177.0615pt>
 File: Pictures//acidente.png Graphic file (type png)
 <use Pictures//acidente.png>
-Package pdftex.def Info: Pictures//acidente.png  used on input line 1066.
+Package pdftex.def Info: Pictures//acidente.png  used on input line 1065.
 (pdftex.def)             Requested size: 341.43306pt x 144.72394pt.
 <Pictures//manutencao.png, id=665, 359.1819pt x 309.3156pt>
 File: Pictures//manutencao.png Graphic file (type png)
 <use Pictures//manutencao.png>
-Package pdftex.def Info: Pictures//manutencao.png  used on input line 1074.
+Package pdftex.def Info: Pictures//manutencao.png  used on input line 1073.
 (pdftex.def)             Requested size: 426.79134pt x 367.56151pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1525,7 +1516,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <Pictures//avaliacao.png, id=673, 625.8582pt x 300.6432pt>
 File: Pictures//avaliacao.png Graphic file (type png)
 <use Pictures//avaliacao.png>
-Package pdftex.def Info: Pictures//avaliacao.png  used on input line 1082.
+Package pdftex.def Info: Pictures//avaliacao.png  used on input line 1081.
 (pdftex.def)             Requested size: 426.79134pt x 205.01727pt.
 ) (04Projeto.tex [34 <./Pictures//manutencao.png> <./Pictures//avaliacao.png>]
 Cap\'{\i }tulo 4.
@@ -1534,11 +1525,9 @@ File: Pictures//projeto.png Graphic file (type png)
 <use Pictures//projeto.png>
 Package pdftex.def Info: Pictures//projeto.png  used on input line 8.
 (pdftex.def)             Requested size: 597.50787pt x 233.04076pt.
-) (conclusao.tex [35
+[35
 
- <./Pictures//projeto.png>] [36
-
-]
+ <./Pictures//projeto.png>]) (conclusao.tex [36]
 Cap\'{\i }tulo 5.
 <Pictures//conclusoes.png, id=689, 1204.5pt x 469.755pt>
 File: Pictures//conclusoes.png Graphic file (type png)
@@ -1554,7 +1543,9 @@ Package pdftex.def Info: Pictures//MeuSistema.jpg  used on input line 23.
 \tf@brf=\write6
 \openout6 = `2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.brf'.
 
- [37 <./Pictures//conclusoes.png> <./Pictures//MeuSistema.jpg>] [38
+ [37
+
+ <./Pictures//conclusoes.png> <./Pictures//MeuSistema.jpg>] [38
 
 ]
 <Pictures//referencias.png, id=700, 903.375pt x 352.31625pt>
@@ -1574,15 +1565,15 @@ Package rerunfilecheck Info: File `2022DanielTerraGomes-Sistema_remoto_de_carros
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 32973 strings out of 478864
- 654915 string characters out of 2848660
- 1154755 words of memory out of 3000000
+ 32976 strings out of 478864
+ 654947 string characters out of 2848660
+ 1155755 words of memory out of 3000000
  49587 multiletter control sequences out of 15000+600000
- 488089 words of font info for 276 fonts, out of 8000000 for 9000
+ 488219 words of font info for 278 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,12n,92p,779b,1167s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/urw/avantgar/uagd8a.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/urw/avantgar/uagk8a.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on 2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.pdf (43 pages, 13826636 bytes).
+Output written on 2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.pdf (43 pages, 13828619 bytes).
 PDF statistics:
  979 PDF objects out of 1000 (max. 8388607)
  351 named destinations out of 1000 (max. 500000)

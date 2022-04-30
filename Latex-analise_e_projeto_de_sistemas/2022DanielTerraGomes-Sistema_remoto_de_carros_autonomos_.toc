@@ -19,13 +19,11 @@
 \contentsline {section}{\numberline {2.3}Benef\'{\i }cios}{12}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}Benef\'{\i }cios Tang\'{\i }veis}{12}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}Benef\'{\i }cios Intang\'{\i }veis}{13}{subsection.2.3.2}%
-\contentsline {section}{\numberline {2.4}An\'{a}lise de Custos e Benef\'{\i }cios}{13}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Estudo de Viabilidade}{13}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Calend\'{a}rio }{13}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}Cronograma }{14}{subsection.2.5.2}%
-\contentsline {subsection}{\numberline {2.5.3}Alternativas Tecnol\'{o}gicas }{14}{subsection.2.5.3}%
-\contentsline {subsection}{\numberline {2.5.4}Or\c {c}amento }{14}{subsection.2.5.4}%
-\contentsline {subsection}{\numberline {2.5.5}Resumo e Recomenda\c {c}\~{o}es}{15}{subsection.2.5.5}%
+\contentsline {section}{\numberline {2.4}Estudo de Viabilidade}{13}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Calend\'{a}rio }{13}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Cronograma }{13}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Or\c {c}amento }{14}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Resumo e Recomenda\c {c}\~{o}es}{14}{subsection.2.4.4}%
 \contentsline {chapter}{\numberline {3}Etapa de An\'{a}lise}{17}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Requisitos do Sistema}{17}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Diagramas de requisitos}{22}{subsection.3.1.1}%
@@ -43,20 +41,22 @@
 \contentsline {subsection}{\numberline {3.4.3} Cadastro de novos funcionários}{28}{subsection.3.4.3}%
 \contentsline {subsection}{\numberline {3.4.4} Diagrama de Caso de Uso}{28}{subsection.3.4.4}%
 \contentsline {section}{\numberline {3.5}Modelagem do Sistema}{29}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Modelagem de Processos}{29}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}Diagrama de contexto}{29}{subsection.3.5.2}%
-\contentsline {subsection}{\numberline {3.5.3}Diagrama do sistema}{30}{subsection.3.5.3}%
-\contentsline {subsection}{\numberline {3.5.4}Diagramas de processos}{31}{subsection.3.5.4}%
-\contentsline {subsection}{\numberline {3.5.5}Modelagem de Dados}{32}{subsection.3.5.5}%
-\contentsline {subsection}{\numberline {3.5.6}Diagramas de entidades e relacionamentos}{32}{subsection.3.5.6}%
+\contentsline {subsection}{\numberline {3.5.1}Diagrama de contexto}{29}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Diagrama do sistema}{30}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Diagramas de processos}{31}{subsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.5.4}Modelagem de Dados}{32}{subsection.3.5.4}%
+\contentsline {subsection}{\numberline {3.5.5}Diagramas de entidades e relacionamentos}{32}{subsection.3.5.5}%
 \contentsline {chapter}{\numberline {4}Projeto do Sistema}{35}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Estrat\'{e}gia do Projeto}{35}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Refinamento dos Diagramas DFD e E-R}{35}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Arquitetura do Sistema - Estilos}{35}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Arquitetura do Sistema}{35}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Arquitetura do Hardware}{35}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Arquitetura de Software}{35}{subsection.4.3.3}%
-\contentsline {section}{\numberline {4.4}Projeto de Interface}{35}{section.4.4}%
+\contentsline {subsection}{\numberline {4.1.1}Exclusividade}{35}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Software desenvolvido}{35}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Terceirização}{36}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}Refinamento dos Diagramas DFD e E-R}{36}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Arquitetura do Sistema - Estilos}{36}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Arquitetura do Sistema}{36}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Arquitetura do Hardware}{36}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Arquitetura de Software}{36}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}Projeto de Interface}{36}{section.4.4}%
 \contentsline {chapter}{\numberline {5}Considera\c {c}\~{o}es Finais}{37}{chapter.5}%
 \contentsline {chapter}{\leavevmode {\color {ocre}Bibliografia}}{39}{chapter*.4}%
 \contentsfinish 
