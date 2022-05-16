@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.8.10)  13 MAY 2022 22:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.8.10)  16 MAY 2022 12:39
 entering extended mode
 **c:/Users/danie/Documents/Faculdade/Latex-works/Latex-analise_e_projeto_de_sistemas/2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.tex
 (c:/Users/danie/Documents/Faculdade/Latex-works/Latex-analise_e_projeto_de_sistemas/2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.tex
@@ -947,6 +947,12 @@ LaTeX Warning: Label `afp' multiply defined.
 LaTeX Warning: Label `afp' multiply defined.
 
 
+LaTeX Warning: Label `afp' multiply defined.
+
+
+LaTeX Warning: Label `afp' multiply defined.
+
+
 LaTeX Warning: Label `sistema' multiply defined.
 
 )
@@ -1144,7 +1150,7 @@ LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10.95> not available
 
  [4] (01introduc.tex
 Cap\'{\i }tulo 1.
-<Pictures//sistemas.png, id=226, 1204.5pt x 469.755pt>
+<Pictures//sistemas.png, id=220, 1204.5pt x 469.755pt>
 File: Pictures//sistemas.png Graphic file (type png)
 <use Pictures//sistemas.png>
 Package pdftex.def Info: Pictures//sistemas.png  used on input line 9.
@@ -1157,7 +1163,7 @@ l.34 \subsection{Aplicativo}
 
 
  <./Pictures//sistemas.png>]
-<Pictures//computer.png, id=234, 1204.5pt x 870.25125pt>
+<Pictures//computer.png, id=228, 1204.5pt x 870.25125pt>
 File: Pictures//computer.png Graphic file (type png)
 <use Pictures//computer.png>
 Package pdftex.def Info: Pictures//computer.png  used on input line 52.
@@ -1167,12 +1173,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has b
                    \relax 
 l.65        \item \textbf
                          {Carros}; [2 <./Pictures//computer.png>]
-<Pictures//windows.jpg, id=242, 648.4225pt x 285.065pt>
+<Pictures//windows.jpg, id=236, 648.4225pt x 285.065pt>
 File: Pictures//windows.jpg Graphic file (type jpg)
 <use Pictures//windows.jpg>
 Package pdftex.def Info: Pictures//windows.jpg  used on input line 89.
 (pdftex.def)             Requested size: 227.62204pt x 100.07002pt.
-<Pictures//office.png, id=243, 565.11125pt x 266.9975pt>
+<Pictures//office.png, id=237, 565.11125pt x 266.9975pt>
 File: Pictures//office.png Graphic file (type png)
 <use Pictures//office.png>
 Package pdftex.def Info: Pictures//office.png  used on input line 96.
@@ -1182,17 +1188,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has b
                    \relax 
 l.118              \subitem
                             - Windows, Android, IOS. [3 <./Pictures//windows.jpg> <./Pictures//office.png>]
-<Pictures//users.png, id=251, 220.825pt x 220.825pt>
+<Pictures//users.png, id=245, 220.825pt x 220.825pt>
 File: Pictures//users.png Graphic file (type png)
 <use Pictures//users.png>
 Package pdftex.def Info: Pictures//users.png  used on input line 128.
 (pdftex.def)             Requested size: 227.62204pt x 227.63423pt.
-<Pictures//car_network.jpeg, id=252, 368.8179pt x 244.0317pt>
+<Pictures//car_network.jpeg, id=246, 368.8179pt x 244.0317pt>
 File: Pictures//car_network.jpeg Graphic file (type jpg)
 <use Pictures//car_network.jpeg>
 Package pdftex.def Info: Pictures//car_network.jpeg  used on input line 135.
 (pdftex.def)             Requested size: 227.62204pt x 150.6092pt.
-<Pictures//workers.jpg, id=253, 1284.8pt x 642.4pt>
+<Pictures//workers.jpg, id=247, 1284.8pt x 642.4pt>
 File: Pictures//workers.jpg Graphic file (type jpg)
 <use Pictures//workers.jpg>
 Package pdftex.def Info: Pictures//workers.jpg  used on input line 141.
@@ -1205,12 +1211,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has b
                    \relax 
 l.145 
        [4 <./Pictures//users.png> <./Pictures//car_network.jpeg>]
-<Pictures//datacenter.jpg, id=260, 1971.365pt x 1021.8175pt>
+<Pictures//datacenter.jpg, id=254, 1971.365pt x 1021.8175pt>
 File: Pictures//datacenter.jpg Graphic file (type jpg)
 <use Pictures//datacenter.jpg>
 Package pdftex.def Info: Pictures//datacenter.jpg  used on input line 173.
 (pdftex.def)             Requested size: 227.62204pt x 117.98209pt.
-<Pictures//data.jpg, id=261, 903.375pt x 421.575pt>
+<Pictures//data.jpg, id=255, 903.375pt x 421.575pt>
 File: Pictures//data.jpg Graphic file (type jpg)
 <use Pictures//data.jpg>
 Package pdftex.def Info: Pictures//data.jpg  used on input line 180.
@@ -1219,39 +1225,39 @@ Package pdftex.def Info: Pictures//data.jpg  used on input line 180.
 Underfull \vbox (badness 3068) has occurred while \output is active []
 
  [5 <./Pictures//workers.jpg> <./Pictures//datacenter.jpg>]
-<Pictures//manuais.jpg, id=268, 401.5pt x 301.125pt>
+<Pictures//manuais.jpg, id=262, 401.5pt x 301.125pt>
 File: Pictures//manuais.jpg Graphic file (type jpg)
 <use Pictures//manuais.jpg>
 Package pdftex.def Info: Pictures//manuais.jpg  used on input line 197.
 (pdftex.def)             Requested size: 227.62204pt x 170.71947pt.
-<Pictures//source-code.jpg, id=269, 602.25pt x 338.26375pt>
+<Pictures//source-code.jpg, id=263, 602.25pt x 338.26375pt>
 File: Pictures//source-code.jpg Graphic file (type jpg)
 <use Pictures//source-code.jpg>
 Package pdftex.def Info: Pictures//source-code.jpg  used on input line 204.
 (pdftex.def)             Requested size: 227.62204pt x 127.84991pt.
  [6 <./Pictures//data.jpg> <./Pictures//manuais.jpg> <./Pictures//source-code.jpg>]
-<Pictures//top-12-somethodologies.jpg, id=277, 963.6pt x 542.025pt>
+<Pictures//top-12-somethodologies.jpg, id=271, 963.6pt x 542.025pt>
 File: Pictures//top-12-somethodologies.jpg Graphic file (type jpg)
 <use Pictures//top-12-somethodologies.jpg>
 Package pdftex.def Info: Pictures//top-12-somethodologies.jpg  used on input line 225.
 (pdftex.def)             Requested size: 227.62204pt x 128.03754pt.
-<Pictures//training.jpg, id=278, 823.075pt x 461.725pt>
+<Pictures//training.jpg, id=272, 823.075pt x 461.725pt>
 File: Pictures//training.jpg Graphic file (type jpg)
 <use Pictures//training.jpg>
 Package pdftex.def Info: Pictures//training.jpg  used on input line 232.
 (pdftex.def)             Requested size: 227.62204pt x 127.68987pt.
  [7 <./Pictures//top-12-somethodologies.jpg> <./Pictures//training.jpg>]
-<Pictures//laptop.png, id=285, 2775.36874pt x 1560.83125pt>
+<Pictures//laptop.png, id=279, 2775.36874pt x 1560.83125pt>
 File: Pictures//laptop.png Graphic file (type png)
 <use Pictures//laptop.png>
 Package pdftex.def Info: Pictures//laptop.png  used on input line 270.
 (pdftex.def)             Requested size: 227.62204pt x 127.98898pt.
-<Pictures//phone.jpg, id=286, 1385.175pt x 1051.93pt>
+<Pictures//phone.jpg, id=280, 1385.175pt x 1051.93pt>
 File: Pictures//phone.jpg Graphic file (type jpg)
 <use Pictures//phone.jpg>
 Package pdftex.def Info: Pictures//phone.jpg  used on input line 277.
 (pdftex.def)             Requested size: 227.62204pt x 172.8547pt.
-<Pictures//Satellite.jpg, id=287, 602.25pt x 338.26375pt>
+<Pictures//Satellite.jpg, id=281, 602.25pt x 338.26375pt>
 File: Pictures//Satellite.jpg Graphic file (type jpg)
 <use Pictures//Satellite.jpg>
 Package pdftex.def Info: Pictures//Satellite.jpg  used on input line 284.
@@ -1260,19 +1266,19 @@ Package pdftex.def Info: Pictures//Satellite.jpg  used on input line 284.
 Underfull \vbox (badness 5817) has occurred while \output is active []
 
  [8 <./Pictures//laptop.png> <./Pictures//phone.jpg>]
-<Pictures//cloud.png, id=295, 453.19313pt x 243.91125pt>
+<Pictures//cloud.png, id=289, 453.19313pt x 243.91125pt>
 File: Pictures//cloud.png Graphic file (type png)
 <use Pictures//cloud.png>
 Package pdftex.def Info: Pictures//cloud.png  used on input line 300.
 (pdftex.def)             Requested size: 227.62204pt x 122.50613pt.
-<Pictures//Google_Cloud_Covered.png, id=296, 2890.8pt x 1204.5pt>
+<Pictures//Google_Cloud_Covered.png, id=290, 2890.8pt x 1204.5pt>
 File: Pictures//Google_Cloud_Covered.png Graphic file (type png)
 <use Pictures//Google_Cloud_Covered.png>
 Package pdftex.def Info: Pictures//Google_Cloud_Covered.png  used on input line 306.
 (pdftex.def)             Requested size: 227.62204pt x 94.83649pt.
  [9 <./Pictures//Satellite.jpg> <./Pictures//cloud.png> <./Pictures//Google_Cloud_Covered.png>]) (02Planejamento.tex [10]
 Cap\'{\i }tulo 2.
-<Pictures//planejamento.png, id=310, 289.08pt x 112.7412pt>
+<Pictures//planejamento.png, id=304, 289.08pt x 112.7412pt>
 File: Pictures//planejamento.png Graphic file (type png)
 <use Pictures//planejamento.png>
 Package pdftex.def Info: Pictures//planejamento.png  used on input line 9.
@@ -1286,7 +1292,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 137.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 137.
-<Pictures//Cronograma.png, id=319, 769.6755pt x 320.397pt>
+<Pictures//Cronograma.png, id=313, 769.6755pt x 320.397pt>
 File: Pictures//Cronograma.png Graphic file (type png)
 <use Pictures//Cronograma.png>
 Package pdftex.def Info: Pictures//Cronograma.png  used on input line 157.
@@ -1325,7 +1331,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 190--192
 
 ]
 Cap\'{\i }tulo 3.
-<Pictures//analise.png, id=342, 903.375pt x 352.31625pt>
+<Pictures//analise.png, id=336, 903.375pt x 352.31625pt>
 File: Pictures//analise.png Graphic file (type png)
 <use Pictures//analise.png>
 Package pdftex.def Info: Pictures//analise.png  used on input line 8.
@@ -1340,12 +1346,12 @@ Underfull \vbox (badness 4181) has occurred while \output is active []
 Underfull \vbox (badness 6625) has occurred while \output is active []
 
  [20]
-<Pictures//subsistemas.drawio.png, id=498, 673.51625pt x 443.6575pt>
+<Pictures//subsistemas.drawio.png, id=492, 673.51625pt x 443.6575pt>
 File: Pictures//subsistemas.drawio.png Graphic file (type png)
 <use Pictures//subsistemas.drawio.png>
 Package pdftex.def Info: Pictures//subsistemas.drawio.png  used on input line 750.
 (pdftex.def)             Requested size: 426.79134pt x 281.13718pt.
-<Pictures//redeDiagram.drawio.png, id=499, 764.8575pt x 695.59875pt>
+<Pictures//redeDiagram.drawio.png, id=493, 764.8575pt x 695.59875pt>
 File: Pictures//redeDiagram.drawio.png Graphic file (type png)
 <use Pictures//redeDiagram.drawio.png>
 Package pdftex.def Info: Pictures//redeDiagram.drawio.png  used on input line 756.
@@ -1414,7 +1420,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 872--880
 
  []
 
-<Pictures//Untitled Diagram.drawio.png, id=572, 1016.79875pt x 656.4525pt>
+<Pictures//Untitled Diagram.drawio.png, id=566, 1016.79875pt x 656.4525pt>
 File: Pictures//Untitled Diagram.drawio.png Graphic file (type png)
 <use Pictures//Untitled Diagram.drawio.png>
 Package pdftex.def Info: Pictures//Untitled Diagram.drawio.png  used on input line 889.
@@ -1463,7 +1469,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 919--921
  []
 
 [27]
-<Pictures//casodeuso.drawio.png, id=599, 519.9425pt x 564.1075pt>
+<Pictures//casodeuso.drawio.png, id=593, 519.9425pt x 564.1075pt>
 File: Pictures//casodeuso.drawio.png Graphic file (type png)
 <use Pictures//casodeuso.drawio.png>
 Package pdftex.def Info: Pictures//casodeuso.drawio.png  used on input line 984.
@@ -1472,13 +1478,13 @@ Package pdftex.def Info: Pictures//casodeuso.drawio.png  used on input line 984.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [28]
-<Pictures//systemDiagram.drawio.png, id=626, 653.44125pt x 322.20375pt>
+<Pictures//systemDiagram.drawio.png, id=620, 653.44125pt x 322.20375pt>
 File: Pictures//systemDiagram.drawio.png Graphic file (type png)
 <use Pictures//systemDiagram.drawio.png>
 Package pdftex.def Info: Pictures//systemDiagram.drawio.png  used on input line 1006.
 (pdftex.def)             Requested size: 426.79134pt x 210.44273pt.
  [29 <./Pictures//casodeuso.drawio.png>]
-<Pictures//sistema.png, id=635, 437.2335pt x 310.0383pt>
+<Pictures//sistema.png, id=629, 437.2335pt x 310.0383pt>
 File: Pictures//sistema.png Graphic file (type png)
 <use Pictures//sistema.png>
 Package pdftex.def Info: Pictures//sistema.png  used on input line 1016.
@@ -1487,7 +1493,7 @@ Package pdftex.def Info: Pictures//sistema.png  used on input line 1016.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [30 <./Pictures//systemDiagram.drawio.png>]
-<Pictures//gerenciamento.png, id=643, 531.9072pt x 384.4764pt>
+<Pictures//gerenciamento.png, id=637, 531.9072pt x 384.4764pt>
 File: Pictures//gerenciamento.png Graphic file (type png)
 <use Pictures//gerenciamento.png>
 Package pdftex.def Info: Pictures//gerenciamento.png  used on input line 1034.
@@ -1496,7 +1502,7 @@ Package pdftex.def Info: Pictures//gerenciamento.png  used on input line 1034.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [31 <./Pictures//sistema.png>]
-<Pictures//cliente.png, id=654, 448.074pt x 349.7868pt>
+<Pictures//cliente.png, id=648, 448.074pt x 349.7868pt>
 File: Pictures//cliente.png Graphic file (type png)
 <use Pictures//cliente.png>
 Package pdftex.def Info: Pictures//cliente.png  used on input line 1056.
@@ -1505,12 +1511,12 @@ Package pdftex.def Info: Pictures//cliente.png  used on input line 1056.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [32 <./Pictures//gerenciamento.png>]
-<Pictures//acidente.png, id=664, 417.7206pt x 177.0615pt>
+<Pictures//acidente.png, id=658, 417.7206pt x 177.0615pt>
 File: Pictures//acidente.png Graphic file (type png)
 <use Pictures//acidente.png>
 Package pdftex.def Info: Pictures//acidente.png  used on input line 1065.
 (pdftex.def)             Requested size: 341.43306pt x 144.72394pt.
-<Pictures//manutencao.png, id=665, 359.1819pt x 309.3156pt>
+<Pictures//manutencao.png, id=659, 359.1819pt x 309.3156pt>
 File: Pictures//manutencao.png Graphic file (type png)
 <use Pictures//manutencao.png>
 Package pdftex.def Info: Pictures//manutencao.png  used on input line 1073.
@@ -1519,14 +1525,14 @@ Package pdftex.def Info: Pictures//manutencao.png  used on input line 1073.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [33 <./Pictures//cliente.png> <./Pictures//acidente.png>]
-<Pictures//avaliacao.png, id=673, 625.8582pt x 300.6432pt>
+<Pictures//avaliacao.png, id=667, 625.8582pt x 300.6432pt>
 File: Pictures//avaliacao.png Graphic file (type png)
 <use Pictures//avaliacao.png>
 Package pdftex.def Info: Pictures//avaliacao.png  used on input line 1081.
 (pdftex.def)             Requested size: 426.79134pt x 205.01727pt.
 ) (04Projeto.tex [34 <./Pictures//manutencao.png> <./Pictures//avaliacao.png>]
 Cap\'{\i }tulo 4.
-<Pictures//projeto.png, id=680, 289.08pt x 112.7412pt>
+<Pictures//projeto.png, id=674, 289.08pt x 112.7412pt>
 File: Pictures//projeto.png Graphic file (type png)
 <use Pictures//projeto.png>
 Package pdftex.def Info: Pictures//projeto.png  used on input line 8.
@@ -1534,22 +1540,34 @@ Package pdftex.def Info: Pictures//projeto.png  used on input line 8.
 [35
 
  <./Pictures//projeto.png>]
-<Pictures//Depot.png, id=685, 466.1415pt x 246.4407pt>
+<Pictures//Depot.png, id=679, 466.1415pt x 246.4407pt>
 File: Pictures//Depot.png Graphic file (type png)
 <use Pictures//Depot.png>
-Package pdftex.def Info: Pictures//Depot.png  used on input line 47.
+Package pdftex.def Info: Pictures//Depot.png  used on input line 45.
 (pdftex.def)             Requested size: 426.79134pt x 225.64143pt.
-<Pictures//Pipe.png, id=686, 556.0775pt x 482.80376pt>
+<Pictures//Pipe.png, id=680, 556.0775pt x 482.80376pt>
 File: Pictures//Pipe.png Graphic file (type png)
 <use Pictures//Pipe.png>
-Package pdftex.def Info: Pictures//Pipe.png  used on input line 66.
+Package pdftex.def Info: Pictures//Pipe.png  used on input line 64.
 (pdftex.def)             Requested size: 426.79134pt x 370.55922pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [36 <./Pictures//Depot.png>]) (conclusao.tex [37 <./Pictures//Pipe.png>] [38
+ [36 <./Pictures//Depot.png>]
+<Pictures//soft.png, id=687, 368.87813pt x 97.86563pt>
+File: Pictures//soft.png Graphic file (type png)
+<use Pictures//soft.png>
+Package pdftex.def Info: Pictures//soft.png  used on input line 77.
+(pdftex.def)             Requested size: 426.79134pt x 113.23pt.
+<Pictures//apli.png, id=688, 350.05782pt x 157.33781pt>
+File: Pictures//apli.png Graphic file (type png)
+<use Pictures//apli.png>
+Package pdftex.def Info: Pictures//apli.png  used on input line 92.
+(pdftex.def)             Requested size: 426.79134pt x 191.839pt.
+) (conclusao.tex
+Underfull \vbox (badness 1609) has occurred while \output is active []
 
-]
+ [37 <./Pictures//Pipe.png> <./Pictures//soft.png>] [38 <./Pictures//apli.png>]
 Cap\'{\i }tulo 5.
 <Pictures//conclusoes.png, id=703, 1204.5pt x 469.755pt>
 File: Pictures//conclusoes.png Graphic file (type png)
@@ -1564,7 +1582,9 @@ Package pdftex.def Info: Pictures//cars.jpg  used on input line 24.
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [39 <./Pictures//conclusoes.png>] (2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.bbl (2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.brf)
+ [39
+
+ <./Pictures//conclusoes.png>] (2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.bbl (2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.brf)
 \tf@brf=\write6
 \openout6 = `2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.brf'.
 
@@ -1584,17 +1604,17 @@ Package rerunfilecheck Info: File `2022DanielTerraGomes-Sistema_remoto_de_carros
 (rerunfilecheck)             Checksum: 680E83D063040B164C43354E75D4842A;43.
  ) 
 Here is how much of TeX's memory you used:
- 33004 strings out of 478864
- 655383 string characters out of 2848660
- 1155778 words of memory out of 3000000
- 49607 multiletter control sequences out of 15000+600000
+ 33018 strings out of 478864
+ 655703 string characters out of 2848660
+ 1155776 words of memory out of 3000000
+ 49619 multiletter control sequences out of 15000+600000
  488335 words of font info for 279 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,12n,92p,779b,1167s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/urw/avantgar/uagd8a.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/urw/avantgar/uagk8a.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on 2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.pdf (45 pages, 13979624 bytes).
+Output written on 2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.pdf (45 pages, 13986333 bytes).
 PDF statistics:
- 997 PDF objects out of 1000 (max. 8388607)
+ 991 PDF objects out of 1000 (max. 8388607)
  356 named destinations out of 1000 (max. 500000)
- 98065 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 98059 words of extra memory for PDF output out of 106986 (max. 10000000)
 

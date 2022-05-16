@@ -1,27 +1,27 @@
 # Fdb version 3
-["bibtex 2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_"] 1652492288 "2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.aux" "2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.bbl" "2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_" 1652492301
-  "2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.aux" 1652492299 24592 2c0e58913a5fc8cea8bd041ca63d487d "pdflatex"
+["bibtex 2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_"] 1652715587 "2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.aux" "2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.bbl" "2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_" 1652715602
+  "2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.aux" 1652715600 24501 45c5a495091feff71033c295a6d0e6a9 "pdflatex"
   "APS.bib" 1646562633 4474 b63bdb4ddc12d610f06f427bfd9c54e9 ""
   "C:/Users/danie/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/alpha.bst" 1291864736 23907 a5f93555796fb564b924339521f10a7c ""
   (generated)
-  "2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.blg"
   "2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.bbl"
-["makeindex 2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.idx"] 1652492265 "2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.idx" "2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.ind" "2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_" 1652492301
-  "2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.idx" 1652492292 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.blg"
+["makeindex 2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.idx"] 1652715556 "2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.idx" "2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.ind" "2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_" 1652715602
+  "2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.idx" 1652715591 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
-  "2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.ilg"
   "2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.ind"
-["pdflatex"] 1652492289 "c:/Users/danie/Documents/Faculdade/Latex-works/Latex-analise_e_projeto_de_sistemas/2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.tex" "2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.pdf" "2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_" 1652492301
+  "2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.ilg"
+["pdflatex"] 1652715587 "c:/Users/danie/Documents/Faculdade/Latex-works/Latex-analise_e_projeto_de_sistemas/2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.tex" "2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.pdf" "2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_" 1652715602
   "01introduc.tex" 1648737268 12198 3d218585f319ef7536ebe4db3662bc40 ""
   "02Planejamento.tex" 1651352423 11821 9cb9db6a3361699084a47a0e858b59d6 ""
   "03Analise.tex" 1651352288 38768 745bdec31ae687bd31eec3c98bbb15a3 ""
-  "04Projeto.tex" 1652492251 3153 1766bce558fa5d8a756b361266a3b582 ""
-  "2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.aux" 1652492299 24592 2c0e58913a5fc8cea8bd041ca63d487d "pdflatex"
-  "2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.bbl" 1652492288 245 97800deb521505ae1dbbd4ca70a3ca5e "bibtex 2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_"
-  "2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.brf" 1652492299 43 680e83d063040b164c43354e75d4842a "pdflatex"
-  "2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.ind" 1652492265 0 d41d8cd98f00b204e9800998ecf8427e "makeindex 2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.idx"
+  "04Projeto.tex" 1652715564 3766 8e815306eefafe1cb81e3aca4330ef89 ""
+  "2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.aux" 1652715600 24501 45c5a495091feff71033c295a6d0e6a9 "pdflatex"
+  "2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.bbl" 1652715587 245 97800deb521505ae1dbbd4ca70a3ca5e "bibtex 2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_"
+  "2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.brf" 1652715600 43 680e83d063040b164c43354e75d4842a "pdflatex"
+  "2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.ind" 1652715557 0 d41d8cd98f00b204e9800998ecf8427e "makeindex 2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.idx"
   "2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.tex" 1648670284 4725 f9636d3bf7e2ebd52e5a115a5408a288 ""
-  "2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.toc" 1652492299 5361 292eef4fae0a7dc49b11d7826e658305 "pdflatex"
+  "2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.toc" 1652715600 5184 c968f8f4c70d0285b287bdea6a41d0ad "pdflatex"
   "C:/Users/danie/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1628626163 9742851 a26164b1f26b665db71d2d1f22b7682f ""
   "C:/Users/danie/AppData/Local/MiKTeX/pdftex/config/pdftex.map" 1648655763 84158 d77284a6843bde1e4b9764f09fb2e89e ""
   "C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -262,6 +262,7 @@
   "Pictures//Untitled Diagram.drawio.png" 1650050534 40951 e90e63138b9bdb1b8bd4d32fca16f9b3 ""
   "Pictures//acidente.png" 1650143884 114658 b5631acc5598dc19ac7acc9bb4cfdb60 ""
   "Pictures//analise.png" 1481766907 665821 7d9a322b7ac853605a78e13a2f5609fb ""
+  "Pictures//apli.png" 1652715514 4622 9ee671624f1043cabca0f821f1f4493a ""
   "Pictures//avaliacao.png" 1650146127 185827 ea7b42e42fd18c66d67b852231d0e6d9 ""
   "Pictures//capa.png" 1650057213 1105377 ad4dca85903182b363a319694adb6c21 ""
   "Pictures//car_network.jpeg" 1647250524 640697 f17874fe1057b2c3a20bbb403e8b628a ""
@@ -285,6 +286,7 @@
   "Pictures//referencias.png" 1481770866 1303289 f3cb22f8635aaf44954a355ac1ae4f80 ""
   "Pictures//sistema.png" 1650306336 95316 6cbe558f86b028bb0a10b89d2ea855ef ""
   "Pictures//sistemas.png" 1481764108 782295 52c0d65deae3f7740e3fcf7035caeb46 ""
+  "Pictures//soft.png" 1652715143 4022 b7c54ff33063fe731c10357a0b841fb5 ""
   "Pictures//source-code.jpg" 1647251189 81402 5badd343d0bdf38f1a1e54b2217700b8 ""
   "Pictures//subsistemas.drawio.png" 1650138678 38862 3c8e8f2ebc1758bceee7d9f6f46acf33 ""
   "Pictures//sumario.jpg" 1650057560 1011923 d843a0b2cee7ffa90a4a8f1def30b232 ""
@@ -298,9 +300,9 @@
   "conclusao.tex" 1652490700 2022 995c617d31de56a6e03727f756fd9229 ""
   "structure.tex" 1646562567 24358 bded71373800a98c656b1bc5247567e8 ""
   (generated)
-  "2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.toc"
-  "2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.brf"
-  "2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.idx"
-  "2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.pdf"
   "2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.aux"
+  "2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.idx"
+  "2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.brf"
   "2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.log"
+  "2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.toc"
+  "2022DanielTerraGomes-Sistema_remoto_de_carros_autonomos_.pdf"
