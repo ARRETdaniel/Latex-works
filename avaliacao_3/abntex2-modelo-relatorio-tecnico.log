@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.8.10)  24 MAY 2022 18:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.8.10)  4 JUL 2022 11:13
 entering extended mode
 **c:/Users/danie/Documents/Faculdade/Latex-works/avaliacao_3/abntex2-modelo-relatorio-tecnico.tex
 (c:/Users/danie/Documents/Faculdade/Latex-works/avaliacao_3/abntex2-modelo-relatorio-tecnico.tex
@@ -717,7 +717,17 @@ Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@cntb=\count354
 \multirow@dima=\skip262
 \bigstrutjot=\dimen267
-) (C:\Users\danie\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty (C:\Users\danie\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty (C:\Users\danie\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+) (C:\Users\danie\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (C:\Users\danie\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks31
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (C:\Users\danie\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty (C:\Users\danie\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty (C:\Users\danie\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2021-06-01 L3 programming layer (loader) 
  (C:\Users\danie\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
@@ -749,44 +759,44 @@ Package: relsize 2013/03/29 ver 4.1
 \biblabelsep=\skip265
 LaTeX Info: Redefining \newblock on input line 591.
 LaTeX Info: Redefining \cite on input line 618.
-\ABCItoken=\toks31
+\ABCItoken=\toks32
 ) (C:\Users\danie\AppData\Local\Programs\MiKTeX\tex/latex/tools\afterpage.sty
 Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
-\AP@output=\toks32
+\AP@output=\toks33
 \AP@partial=\box103
 \AP@footins=\box104
 ) (C:\Users\danie\AppData\Local\Programs\MiKTeX\tex/latex/emptypage\emptypage.sty
 Package: emptypage 2010/05/30 v1.2 Suppress page numbers and headings on empty pages
 )
-Package color Info: Redefining color blue on input line 131.
-Package hyperref Info: Option `colorlinks' set `true' on input line 148.
+Package color Info: Redefining color blue on input line 135.
+Package hyperref Info: Option `colorlinks' set `true' on input line 152.
 \abntex2-modelo-relatorio-tecnico@idxfile=\write4
 \openout4 = `abntex2-modelo-relatorio-tecnico.idx'.
 
 
 Writing index file abntex2-modelo-relatorio-tecnico.idx 
-(abntex2-modelo-relatorio-tecnico.aux (abntex2-modelo-include-comandos.aux))
+(abntex2-modelo-relatorio-tecnico.aux)
 \openout1 = `abntex2-modelo-relatorio-tecnico.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 171.
-LaTeX Font Info:    ... okay on input line 171.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 171.
-LaTeX Font Info:    ... okay on input line 171.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 171.
-LaTeX Font Info:    ... okay on input line 171.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 171.
-LaTeX Font Info:    ... okay on input line 171.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 171.
-LaTeX Font Info:    ... okay on input line 171.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 171.
-LaTeX Font Info:    ... okay on input line 171.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 171.
-LaTeX Font Info:    ... okay on input line 171.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 171.
-LaTeX Font Info:    ... okay on input line 171.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 171.
-LaTeX Font Info:    ... okay on input line 171.
-Package hyperref Info: Link coloring ON on input line 171.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+Package hyperref Info: Link coloring ON on input line 175.
  (C:\Users\danie\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (C:\Users\danie\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
@@ -798,12 +808,12 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 171.
-LaTeX Info: Redefining \ref on input line 171.
-LaTeX Info: Redefining \pageref on input line 171.
-LaTeX Info: Redefining \nameref on input line 171.
-LaTeX Info: Redefining \degres on input line 171.
-LaTeX Info: Redefining \up on input line 171.
+LaTeX Info: Redefining \nameref on input line 175.
+LaTeX Info: Redefining \ref on input line 175.
+LaTeX Info: Redefining \pageref on input line 175.
+LaTeX Info: Redefining \nameref on input line 175.
+LaTeX Info: Redefining \degres on input line 175.
+LaTeX Info: Redefining \up on input line 175.
 \myptabbox=\box105
 \myptabboxwidth=\skip266
 (C:\Users\danie\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
@@ -813,33 +823,33 @@ LaTeX Info: Redefining \up on input line 171.
 \scratchbox=\box106
 \nofMPsegments=\count363
 \nofMParguments=\count364
-\everyMPshowfont=\toks33
+\everyMPshowfont=\toks34
 \MPscratchCnt=\count365
 \MPscratchDim=\dimen269
 \MPnumerator=\count366
 \makeMPintoPDFobject=\count367
-\everyMPtoPDFconversion=\toks34
+\everyMPtoPDFconversion=\toks35
 ) (C:\Users\danie\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (C:\Users\danie\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Redefining \microtypecontext on input line 171.
+LaTeX Info: Redefining \microtypecontext on input line 175.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 171.
+LaTeX Info: Redefining \showhyphens on input line 175.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
  (C:\Users\danie\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 184.
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 188.
  (C:\Users\danie\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -852,104 +862,129 @@ Package microtype Info: Loading generic protrusion settings for font family
 {C:/Users/danie/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2
 
 ]
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 200.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 204.
  (C:\Users\danie\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 200.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 204.
  (C:\Users\danie\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 200.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 204.
  (C:\Users\danie\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 200.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 204.
  (C:\Users\danie\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 200.
+(Font)              <12> on input line 204.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 200.
+(Font)              <8> on input line 204.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 200.
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+(Font)              <6> on input line 204.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 204.
+ (C:\Users\danie\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+) (C:\Users\danie\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 204.
+ (C:\Users\danie\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (C:\Users\danie\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.200 
+l.204 
        [1
 
 
-]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
+] (abntex2-modelo-relatorio-tecnico.lof)pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.215 \end{resumo}
-                   [2] (abntex2-modelo-relatorio-tecnico.lof) [3
+l.211 \cleardoublepage
+                       [2]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 261.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 261.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 261.
 
-] [4
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3
+
 
 ]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 273.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 273.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 273.
- [5
+Underfull \hbox (badness 10000) in paragraph at lines 300--301
 
-] [6
+ []
 
-] [7] [8]
-<img//7.png, id=102, 463.7325pt x 119.69719pt>
-File: img//7.png Graphic file (type png)
-<use img//7.png>
-Package pdftex.def Info: img//7.png  used on input line 312.
-(pdftex.def)             Requested size: 426.79134pt x 110.16473pt.
-<img//8.png, id=104, 367.3725pt x 24.09pt>
-File: img//8.png Graphic file (type png)
-<use img//8.png>
-Package pdftex.def Info: img//8.png  used on input line 319.
-(pdftex.def)             Requested size: 426.79134pt x 27.98813pt.
-<img//2.png, id=105, 341.77687pt x 28.60687pt>
-File: img//2.png Graphic file (type png)
-<use img//2.png>
-Package pdftex.def Info: img//2.png  used on input line 327.
-(pdftex.def)             Requested size: 426.79134pt x 35.72531pt.
- [9
+[4] [5
 
- <./img//7.png> <./img//8.png> <./img//2.png>]
-\openout2 = `abntex2-modelo-include-comandos.aux'.
+] [6]
+<img//av4-ex3.png, id=91, 557.08125pt x 117.43875pt>
+File: img//av4-ex3.png Graphic file (type png)
+<use img//av4-ex3.png>
+Package pdftex.def Info: img//av4-ex3.png  used on input line 316.
+(pdftex.def)             Requested size: 426.79134pt x 89.97473pt.
+<img//av4-ex5.png, id=93, 532.99126pt x 548.80031pt>
+File: img//av4-ex5.png Graphic file (type png)
+<use img//av4-ex5.png>
+Package pdftex.def Info: img//av4-ex5.png  used on input line 326.
+(pdftex.def)             Requested size: 312.9803pt x 322.27367pt.
+<img//av4-ex7.png, id=94, 393.72093pt x 371.13657pt>
+File: img//av4-ex7.png Graphic file (type png)
+<use img//av4-ex7.png>
+Package pdftex.def Info: img//av4-ex7.png  used on input line 335.
+(pdftex.def)             Requested size: 341.43306pt x 321.8442pt.
+ [7
+
+ <./img//av4-ex3.png> <./img//av4-ex5.png>] [8 <./img//av4-ex7.png>] [9
+
+] [10]
+<img//ex3.jpeg, id=120, 718.93594pt x 507.39563pt>
+File: img//ex3.jpeg Graphic file (type jpg)
+<use img//ex3.jpeg>
+Package pdftex.def Info: img//ex3.jpeg  used on input line 358.
+(pdftex.def)             Requested size: 341.43306pt x 240.97672pt.
+<img//ex5.jpeg, id=121, 891.33pt x 451.6875pt>
+File: img//ex5.jpeg Graphic file (type jpg)
+<use img//ex5.jpeg>
+Package pdftex.def Info: img//ex5.jpeg  used on input line 370.
+(pdftex.def)             Requested size: 341.43306pt x 173.02147pt.
+<img//ex5-1.jpeg, id=122, 1284.8pt x 1126.2075pt>
+File: img//ex5-1.jpeg Graphic file (type jpg)
+<use img//ex5-1.jpeg>
+Package pdftex.def Info: img//ex5-1.jpeg  used on input line 378.
+(pdftex.def)             Requested size: 284.52756pt x 249.39894pt.
 
 
-No file abntex2-modelo-include-comandos.tex.
-[10
+LaTeX Warning: `h' float specifier changed to `ht'.
 
+[11
 
+ <./img//ex3.jpeg> <./img//ex5.jpeg>]
+Underfull \hbox (badness 10000) in paragraph at lines 392--393
 
+ []
 
-] [11] [12]
-File: img//7.png Graphic file (type png)
-<use img//7.png>
-Package pdftex.def Info: img//7.png  used on input line 350.
-(pdftex.def)             Requested size: 426.79134pt x 110.16473pt.
-File: img//8.png Graphic file (type png)
-<use img//8.png>
-Package pdftex.def Info: img//8.png  used on input line 357.
-(pdftex.def)             Requested size: 426.79134pt x 27.98813pt.
-File: img//2.png Graphic file (type png)
-<use img//2.png>
-Package pdftex.def Info: img//2.png  used on input line 365.
-(pdftex.def)             Requested size: 426.79134pt x 35.72531pt.
- [13
+[12 <./img//ex5-1.jpeg>]
+Underfull \hbox (badness 10000) in paragraph at lines 442--443
 
-] [14] (abntex2-modelo-relatorio-tecnico.bbl (abntex2-modelo-relatorio-tecnico.brf)
+ []
+
+[13] [14
+
+] (abntex2-modelo-relatorio-tecnico.bbl (abntex2-modelo-relatorio-tecnico.brf)
 \tf@brf=\write5
 \openout5 = `abntex2-modelo-relatorio-tecnico.brf'.
 
- [15
-
-] [16
+ [15] [16
 
 ]
 bibitemlist
@@ -957,22 +992,22 @@ bibitemlist
 \tf@lof=\write6
 \openout6 = `abntex2-modelo-relatorio-tecnico.lof'.
 
- (abntex2-modelo-relatorio-tecnico.aux (abntex2-modelo-include-comandos.aux))
+ (abntex2-modelo-relatorio-tecnico.aux)
 Package rerunfilecheck Info: File `abntex2-modelo-relatorio-tecnico.brf' has not changed.
-(rerunfilecheck)             Checksum: BDBB635B78F3B15DCBD0291956772E1E;520.
+(rerunfilecheck)             Checksum: 3152BC5E989BFE27B4AFFBF468FB52B3;49.
  ) 
 Here is how much of TeX's memory you used:
- 17611 strings out of 478864
- 275482 string characters out of 2848660
- 753555 words of memory out of 3000000
- 35058 multiletter control sequences out of 15000+600000
- 481226 words of font info for 133 fonts, out of 8000000 for 9000
+ 18130 strings out of 478864
+ 281020 string characters out of 2848660
+ 755187 words of memory out of 3000000
+ 35568 multiletter control sequences out of 15000+600000
+ 479848 words of font info for 135 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,81p,594b,497s stack positions out of 5000i,500n,10000p,200000b,80000s
-{C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss17.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on abntex2-modelo-relatorio-tecnico.pdf (19 pages, 329482 bytes).
+ 75i,13n,81p,933b,502s stack positions out of 5000i,500n,10000p,200000b,80000s
+{C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}<C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss17.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb>
+Output written on abntex2-modelo-relatorio-tecnico.pdf (19 pages, 974454 bytes).
 PDF statistics:
- 272 PDF objects out of 1000 (max. 8388607)
- 54 named destinations out of 1000 (max. 500000)
- 45184 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 285 PDF objects out of 1000 (max. 8388607)
+ 57 named destinations out of 1000 (max. 500000)
+ 43159 words of extra memory for PDF output out of 51595 (max. 10000000)
 
