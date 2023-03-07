@@ -399,8 +399,8 @@ Relat\'{o}rio do per\'{\i}odo: Junho 2022 - Maio 2023}\\
 % ---
 % inserir lista de abreviaturas e siglas
 % ---
-\begin{siglas}
-	\item[VA] Veículo Autônomo
+\begin{siglas} \label{eq:1}
+	\item[VA] Veículo Autônomo 
 	\item[VAs] Veículos Autônomos
 	\item[ML] Machine Learning
 	\item[IA] Inteligência Artificial
@@ -411,6 +411,7 @@ Relat\'{o}rio do per\'{\i}odo: Junho 2022 - Maio 2023}\\
 	\item[DDT] Dynamic Driving Task
 	\item[ADS-DV] ADS-dedicated vehicle
 \end{siglas}
+
 % ---
 
 % ---
@@ -440,18 +441,26 @@ Relat\'{o}rio do per\'{\i}odo: Junho 2022 - Maio 2023}\\
 \addcontentsline{toc}{chapter}{Introdução}
 % ----------------------------------------------------------
 
-Nosso projeto propõe a implementação de um Chatbot: é um software ou programa de computador que simula conversas humanas por meio de interações de texto ou voz, permitindo que os humanos interajam com dispositivos digitais como se estivessem se comunicando com uma pessoa real. Os chatbots podem ser tão simples quanto programas rudimentares que respondem a uma consulta simples com uma resposta de linha única ou tão sofisticados quanto assistentes digitais que aprendem e evoluem para fornecer níveis crescentes de personalização à medida que coletam e processam informações.
+Veículos são partes essenciais de nossas vidas, fazemos uso para ir a universidade, trabalho, escola, compras, viagens e muito mais. Sendo um dos principais meios de transporte em nossa sociedade.
+Todavia, com o passar do tempo, buscamos maneiras de tornar nossas vidas mais práticas, e automatizadas. A partir destas necessidades surgem os veículos autônomos, que são veículos capazes de fazer sentido do que está ao seu redor e operar sem a necessidade de intervenção humana. Suas principais características são suportar recursos como detecção do ambiente, conexão com a internet, seguir às diretrizes de trânsito, navegar por conta própria em diferentes níveis de automação, tomar decisões de maneira rápidas e eficiente, garantir a segurança de pedestres e passageiros, estacionar, etc.
 
-Você provavelmente já interagiu com um chatbot, sabendo ou não. Por exemplo, você está em seu computador pesquisando um produto e uma janela aparece na tela perguntando se você precisa de ajuda, ou talvez você esteja a caminho de um show e use seu smartphone para solicitar uma carona via Alexa, ou ate mesmo você pode ter usado comandos de voz para pedir um café no café do bairro e receber uma resposta informando quando seu pedido estará pronto e quanto custará. \footnote{\url{https://www.oracle.com/chatbots/what-is-a-chatbot/}}.
+Veículos autônomos (VAs) e as tecnologias associadas para a execução dos seus recursos ganharam rapidamente a atenção da comunidade de pesquisa e indústria. Desse modo, tanto a indústria quanto às comunidades de pesquisa têm trabalhado em abordagens de solução para realizar a direção autônoma de veículos de maneira mais otimizada possível, com foco em enriquecer a percepção do veículo, melhorar a tomada de decisões, implantar e melhorar a inteligência nos veículos e melhorar as tecnologias de comunicação para permitir um veículo confiável e comunicação em tempo real para tudo em sua volta. Fazendo uso de tecnologias sensoriais como visão computacional, odometria, GPS, lasers, sensores e sistema de mapeamento para navegar.
 
-Esses sistemas de Chats podem ser divididos entre dos tipos; orientados a objetivo (Chatbots) que seriam chats que ajudam o usuários a atingir um certo objetivo e com um campo de conhecimento restrito e, também há os Chit Chat cujo trabalham com perguntas abertas, respostas mais naturais e campo de conhecimento aberto de modo a ajudar a encontrar uma informação (QA System) \footnote{\url{https://youtu.be/Mu1N-akGL78}}.
+Toda essa atenção, e necessidades de aprimoramento tecnológico faz essa categoria de veículos ganhar progressivamente penetração no mercado mundial. Fazendo com que em 2019 houvesse 31 milhões de máquinas com algum nível de automação em operação em todo o mundo, esse número deve aumentar para 54 milhões até 2024 \cite{sensors}. Mostrando uma tendência em automação de máquinas que antes eram operadas apenas por seres humanos.
+Dentre os incentivos para a implementação dessa tecnologia está a diminuição das emissões de CO2 e NO2. Visto que, são veículos unicamente elétricos ou híbridos, não fazem a queima de combustíveis fósseis, levando a diminuição na emissão desses gases. Todavia, há toda uma perspectiva que VAs podem ter uma emissão equivalente a todos os data centers hoje, ou 0,3\% das emissões globais, devido ao poder computacional exigido por essas máquinas inteligentes. Isso é aproximadamente equivalente a todo o país da Argentina. Com um computador de controle mais poderoso de 3.100 watts, por exemplo, eles emitiram mais que o dobro disso, ou cerca de 1\% das emissões globais \cite{intro-pm}.
+Desta forma, devido ao aumento da consciência ambiental, a sociedade iniciou um processo de endurecimento da legislação nos países ricos contra a emissão de poluentes, o que levou à promoção da introdução da indústria de geração de energia a partir de fontes renováveis como a energia solar, e no setor de transportes o incentivo a adoção de veículos elétricos.
 
-Um aspecto crítico da implementação do chatbot é selecionar o mecanismo correto de processamento de linguagem natural (NLP) \footnote{\url{https://www.techtarget.com/searchcustomerexperience/definition/chatbot/}}.
-Esse mecanismo conhecido como NLP. Refere-se ao ramo da ciência da computação – e mais especificamente, o ramo da inteligência artificial ou IA – preocupado em dar aos computadores a capacidade de entender texto e palavras faladas da mesma maneira que os seres humanos.
-A NLP combina linguística computacional – modelagem baseada em regras da linguagem humana – com modelos estatísticos, de aprendizado de máquina e aprendizado profundo. Juntas, essas tecnologias permitem que os computadores processem a linguagem humana na forma de texto ou dados de voz e 'compreendam' seu significado completo, com a intenção e o sentimento do falante ou escritor \footnote{\url{https://www.ibm.com/cloud/learn/natural-language-processing}}.
+Ademais, devido à rápida urbanização os congestionamentos são problemas contínuos para muitos centros urbanos em todo o mundo, levando a atrasos excessivos, poluição sonora e do ar, motoristas frustrados e alto consumo de energia. Os veículos totalmente autônomos vem como uma potencial solução para a solução desse problema. A partir do aumento da capacidade dos VAs de transitar por meio de pelotão de veículos, e, também, com menor impacto na ocupação do solo devido à redução da demanda de vagas de estacionamento disponíveis, além de permitir o acesso básico ao transporte para indivíduos que não podem conduzir veículos, impulsionando e promovendo a equidade entre os cidadãos \cite{conge}.
 
-Sendo assim, propomos realizar uma implementação de um Chatbot Simples (jump to define) capaz de auxiliar um usuário durante uma compra em um Website. Durante o desenvolvimento deste projeto estaremos realizando uma pesquisa exploratória a fim de entender o funcionamento de um Software que aplica NLP.
-Por consequência, ao final deste projeto teremos implementado e apresentado o nosso sistema de Chatbot, e compreendido as tecnologias para o seu funcionamento. Assim alcançando uma aprendizagem eficaz, autodidata, e exploratória.
+Os VAs, também, vem como uma solução para a diminuição das mortes no trânsito. Estima-se que no brasil o número de mortes em acidentes de transporte terrestre no período de 2019 foi de 31.945 \cite{Anexo_I_pnatrans}. Além disso, é previsto que até 2030 as colisões fatais no trânsito serão a quinta fonte de mortes nos países em desenvolvimento. Em geral, o fator humano é a principal fonte que causa a maioria dos acidentes de trânsito e o impacto desse fator aumenta ou se torna mais grave nos países em desenvolvimento. Assim, a eliminação do fator humano salvará a vida de muitas pessoas, principalmente nos países em desenvolvimento \cite{mundobrasil}. 
+
+Por fim, apesar das especulações e entusiasmos sobre os VAs, ainda pouco se sabe sobre as implicações no meio ambiente e na sociedade. Assim, os principais objetivos neste relatório de projeto são apresentar as perspectivas de implementação, esboçar cenários do mercado tecnológico, tecnologias essenciais para operação, e características únicas dos VAs. A fim de enriquecer os conhecimentos sobre esse setor e fornecer algumas direções para o futuro dos VAs no Brasil e no mundo.
+
+O relatório está estruturado da seguinte forma: a seção \ref{Etapas} apresenta as etapas propostas no \textit{plano de trabalho}, enquanto a seção \ref{Objetivos} mostra a principal motivação e objetivos deste estudo. A seção \ref{Metodologia} apresenta a metodologia utilizada neste estudo. A seção \ref{resultados} analisa o impacto dos VAs nos diferentes aspectos investigados neste estudo, discute os principais benefícios e desafios da implantação de VAs em países pelo mundo, e apresenta as tecnologias fundamentais para a operação de VAs. A seção \ref{concl} demonstra os cumprimentos do \textit{plano de trabalho} referente a este relatório. A seção \ref{continuidade} apresenta a perspectiva de continuidade dos estudos do bolsista, de modo a aprimorar seus conhecimentos e aprofundar em partes essenciais para esse estudo. A seção \ref{eventos} apresenta a participação em eventos, cursos e atividades do bolsista. Finalmente, a seção \ref{ass} assinatura do bolsista e da sua orientadora.
+
+
+Uma lista das principais siglas usadas ao longo do relatório é fornecida na Página \pageref{eq:1}.
+
 
 
 
