@@ -248,6 +248,8 @@ Por fim, como identificado nos gráficos \ref{rank30} e \ref{figura_future-view}
 
 \section{Veículos Autônomos e suas perspectivas}
 
+Nesta seção tratamos sobre as perspectivas dos VAs em nossas sociedades, identificamos quais são os diferentes tipos de VAs e apresentamos a sua taxonomia com base em fontes reconhecidas mundialmente. Buscamos fazer essa apresentação de maneira bem didática e de forma ilustrativa para uma melhor compreensão de todos. Ademais, trouxemos um panorama de como se encontra o mercado tecnológico e econômico para os VAs; quais são as principais empresas que trabalham e pesquisam nessa categoria de veículos, e quais são as expectativas de lucro de algumas dessas empresas.
+
 \subsection{Nível de condução autônoma}
 	
 Na busca de identificar os diferentes tipos de Carro Autônomos, nos deparamos com um cenário ainda em processo de definição. Pois, com os presentes avanços na área de veículos autônomos, surgiu a necessidade, das empresas e dos órgãos de regularização, de classificá-los de alguma forma. Desse modo, A SAE (Society of Automotive Engineers), uma das principais associações globais que busca essa classificação, dividiu os veículos autônomos em seis níveis de funcionalidade, que vão desde nenhum recurso de automação (nível 0) até automação completa, sem a necessidade de um condutor humano, (nível 5). Fazendo uso da terminologia “sistemas de direção autônoma” para se referir a veículos que possuem algum tipo de direção autônoma \cite{SAE}. Nesse cenário, os níveis 1 e 2 incluem alguns recursos, enquanto o nível 3 alcança automação limitada, onde o motorista pode abrir mão do controle do veículo, desde que esteja disponível para intervir.
@@ -394,10 +396,72 @@ Os sensores são divididos em duas categorias com base em seu princípio operaci
 \begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{Figures/compo.png}
-\caption{Componentes de um veículo autônomo. \cite{aplicacao2}.}
+\caption{Componentes de um veículo autônomo \cite{aplicacao2}.}
 \label{figura_compone}
 \end{figure}
 
+
+\subsubsection{Visão geral sobre os sensores}
+
+Esta seção é uma visão geral sobre diferentes tipos de sensores dos VAs com base em suas diferentes propriedades e aplicações. Examinamos, também, as vantagens e desvantagens dos três sensores básicos para percepção do ambiente utilizados do VAs na atualidade \cite{sensors}, e esses sensores sao organizados como mostra a imagem abaixo:
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=8cm]{Figures/sensores.png}
+\caption{Tipos de sensores em VAs. \cite{review-auto}.}
+\label{figura-sensores}
+\end{figure}
+
+\subsubsubsection{Câmeras}
+
+As Câmeras são uma das tecnologias mais utilizadas para observar o ambiente. Uma câmera produz imagens nítidas dos arredores detectando as luzes emitidas de uma superfície fotossensível (plano de imagem) usando uma lente de câmera (colocada na frente do sensor) \cite{sensors}. Os VAs possuem esses sensores de luz visível para fornecer uma visão de 360 graus do ambiente. As câmeras são ótimos na detecção e reconhecimento de objetos, fornecendo detalhes mais ricos e ajudando a entender os objetos sem ou com profundidade, que geralmente não são detectados por outros tipos de sensores. Dentre esses objetos estão: Sinais de trânsito (limite de velocidade, sinais de parada, sinais de ultrapassagem), semáforos, pedestres, animais são alguns exemplos de tais objetos sem ou com profundidade \cite{sensors-yet}. Esses dados coletados com as câmeras são enviados para os algoritmos baseados em IA para uso posterior, e criação de uma imagem 2D \cite{aplicacao2}. 
+No entanto, esses sensores são imprecisos em ambientes escuros e geram uma grande quantidade de dados para processar. Outros tipos de câmeras como as infravermelhas, também, são utilizadas para melhor desempenho em condições de baixa visibilidade \cite{review-auto}. As câmeras são dispostas nos VAs como mostrado na (Figura \ref{figura-sensores}), e para detalhes específicos dos diferentes modelos de câmeras e suas características (Tabela \ref{tabela-camera}).
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{Figures/camera-table.png}
+\caption{Especificações gerais da câmera estéreo, Campo de visão horizontal (HFOV), Campo de visão vertical (VFOV), Quadros por segundo (FPS), Resolução da imagem em megapixels (Res Img), Quadros de profundidade por segundo (FPS) \cite{sensors}.}
+\label{tabela-camera}
+\end{figure}
+
+\subsubsubsection{LiDAR}
+
+Os LiDAR, ou detecção e alcance de luz, foi desenvolvido pela primeira vez na década de 1960 e desde então tem sido amplamente empregado no mapeamento de terreno aeronáutico e aeroespacial \cite{sensors}. Nos VAs os LiDAR são sensores que usa a luz como meio para medir distâncias é calculado medindo o tempo que a luz leva para ser refletida no receptor, e são dispostos no VA como mostrado na (Figura \ref{figura-sensores}) . Tais sistemas emitem feixes de laser que atingem o ambiente e refletem para um fotodetector. Os feixes coletados são convergidos juntos como uma nuvem de pontos criando uma imagem 3D do ambiente. Embora o LiDAR seja um sensor poderoso e eficiente, são bastante caros \cite{review-auto}. ---cont---
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{Figures/lidar-table.png}
+\caption{Especificações gerais de LiDAR, Quadro por segundo (FPS), Precisão (Acc), Alcance de detecção (RNG), FoV vertical (VFOV), FoV horizontal (HFOV) Resolução horizontal (HR0, Resolução vertical (VR), Comprimento de onda (\lambda) \cite{sensors}.}
+\label{tabela-lidar}
+\end{figure}
+
+
+\subsubsubsection{Radares}
+
+
+
+
+
+
+
+
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{Figures/radar-table.png}
+\caption{Especificação geral de sensores RADAR. Acrônimos primeiro da primeira coluna de cima para baixo, Frequência (Freq), FoV horizontal (HFOV), FoV vertical (VFOV), Precisão de alcance (Faixa Acc), Faixa de velocidade (Faixa Vel), ROS (Sistema operacional robótico) \cite{sensors}.}
+\label{tabela-radar}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{Figures/juncao-table.png}
+\caption{Comparação comum entre sensores. Os sensores " visto" operam completamente sob condições específicas,"--" os sensores funcionam razoavelmente bem sob condições específicas,"x" os sensores não funcionam bem sob o fator específico em relação a outros sensores \cite{sensors}.}
+\label{tabela-juncao}
+\end{figure}
 
 
 \chapter{Conclusões} \label{concl}
@@ -411,39 +475,41 @@ atividades acadêmicas e de pesquisa} \label{eventos}
 
 Também apresentamos os certificados dos minicursos oferecidos pela plataforma Instituto de Tecnologia e Sociedade e Coursera  nas figuras \ref{Google} \ref{Design} e \ref{Direitos}.
 
-\begin{figure}[h!tbp]
-  \centering
-  \begin{minipage}[b]{0.7\textwidth}
-    \includegraphics[width=\textwidth]{Figures/google.png}
-    \caption{\label{Google} Certificado de conclusão do curso Google Data Analytics.}
-  \end{minipage}
-    \hfill
-    
-  \begin{minipage}[b]{0.7\textwidth}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{Figures/google.png}
+\caption{Certificado de conclusão do curso Google Data Analytics.}
+\label{Google}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{Figures/its2.pdf}
+\caption{Certificado de conclusão ao curso Direitos humanos e Inteligência Artificial.}
+\label{Direitos}
+\end{figure}
+
+\begin{figure}[H]
+\centering
     \includegraphics[width=\textwidth]{Figures/its1.pdf}
-    \caption{\label{Design} Certificado de conclusão ao curso Design for Privacy.}
-  \end{minipage}
+\caption{Certificado de conclusão ao curso Design for Privacy.}
+\label{Design}
 \end{figure}
-\begin{figure}[h!tbp]
-  \centering
-  \begin{minipage}[b]{0.7\textwidth}
-    \includegraphics[width=\textwidth]{Figures/its2.pdf}
-    \caption{\label{Direitos} Certificado de conclusão ao curso Direitos humanos e Inteligência Artificial.}
-  \end{minipage}
- 
-\end{figure}
+
 
 
 \chapter{Datas e assinaturas} \label{ass}
+
 \section{Data e assinatura do bolsista (assinatura digitalizada)}
 
 
 \begin{figure}[H]
  \centering
- \includegraphics[width=0.4\textwidth]{Figures/Assinatura1.2.png}
+ \includegraphics[width=0.4\textwidth]{Figures/sign.png}
  %\caption{\label{kaggle.score}Pontuação final no Kaggle.}
 \end{figure}
-\center24/01/2022
+\center30/04/2023
 
 \section{Data e assinatura do orientador (assinatura digitalizada)}
 
@@ -453,5 +519,5 @@ Também apresentamos os certificados dos minicursos oferecidos pela plataforma I
  \includegraphics[width=0.4\textwidth]{Figures/assinatura_annabell.png}
  %\caption{\label{kaggle.score}Pontuação final no Kaggle.}
 \end{figure}
-\center 28/01/2022
+\center 30/04/2023
 
