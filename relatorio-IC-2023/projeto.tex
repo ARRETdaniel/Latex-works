@@ -272,24 +272,27 @@ Abaixo, apresentamos graficamente as diferenças de veículos autônomos e suas 
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=\textwidth]{Figures/IC-Graph1.png}
+\includegraphics[width=15cm]{Figures/IC-Graph1.png}
 \caption{Níveis de Automação de condução PT-BR}
 \label{Graph_PT}
 \end{figure}
 \begin{figure}[H]
 \centering
-\includegraphics[width=\textwidth]{Figures/IC-GrapEN.png}
-\caption{SAE J3016TM levels of driving automation}
+\includegraphics[width=15cm]{Figures/IC-GrapEN.png}
+\caption{SAE J3016TM levels of driving automation \cite{SAE}}
 \label{Graph_EN}
 \end{figure}
 
 Além dessas classificações entre tipos veículos, ainda é possível classificá-los nas seguintes categorias de tipos de automação: Sistema de Assistência Avançada ao Motorista (ADAS) sigla do inglês \textit{advanced driver-assistance system (ADAS)}, ou Condução Automática, Mobilidade Como Serviço (MaaS) sigla do inglês \textit{Mobility as a service (MaaS)}.
-Como visto nos gráficos (\ref{Graph_PT} e \ref{Graph_EN}) nos níveis 1, 2 e 3 o condutor precisa estar preparado para caso o sistema precise de algum tipo de ajuda do condutor, esses níveis são vistos como uma espécie de remendo pois funcionam como um remendo para suprir uma demanda que os sistemas autônomos ainda não podem cumprir com maestria \cite{4cenarios_ocidental}. Pois com o avanço da tecnologia o condutor humano torna-se cada vez menos necessário, e como visto no nível 5 (Gráfico \ref{Graph_EN}) é possível a retirada do volante do veículo. 
+Como visto nos gráficos (Gráficos \ref{Graph_PT} e \ref{Graph_EN}) nos níveis 1, 2 e 3 o condutor precisa estar preparado para caso o sistema precise de algum tipo de ajuda do condutor, esses níveis são vistos como uma espécie de remendo pois funcionam como um remendo para suprir uma demanda que os sistemas autônomos ainda não podem cumprir com maestria \cite{4cenarios_ocidental}. Pois com o avanço da tecnologia o condutor humano torna-se cada vez menos necessário, e como visto no nível 5 (Gráfico \ref{Graph_EN}) é possível a retirada do volante do veículo. 
 
 Na atualidade, empresas líderes do setor de veículos autônomos, como a Tesla, ainda trabalham com nível 2 de direção autônoma referente ao ADAS para veículos vendidos para a população. \cite{4cenarios_ocidental}.
 Por outro lado, no início deste ano de 2023, a Mercedes-Benz no seu portal de mídias afirma ser a primeira empresa a alcançar a marca de direção autônoma SAE level 3 para o mercado dos Estados Unidos, sendo o estado de Nevada o primeiro a concordar com as regulamentações para a navegação desses tipos de veículos em seu território. A Mercedes afirma, também, que já em 2024 terá os seus primeiros veículos \textit{DRIVE PILOT}, em portugues “condutor”, disponíveis para o mercado Norte Americano.
 
-“No mundo moderno, o tempo é um dos bens mais preciosos, e devolver o tempo aos nossos clientes é um elemento central em nossa estratégia de construir os carros mais desejados do mundo. O nosso DRIVE PILOT dá um grande passo para o conseguir e coloca-nos na vanguarda da inovação no campo crucialmente importante da condução autónoma. O DRIVE PILOT demonstra mais uma vez que nosso pioneirismo faz parte do nosso DNA. A certificação em Nevada marca o início de seu lançamento internacional e, com ela, o início de uma nova era.” Diz o Markus Schäfer, Membro do Conselho de Administração do Mercedes‑Benz Group AG, Diretor de Tecnologia, responsável por Desenvolvimento e Compras \cite{mercedes3}.
+\begin{quote}
+“No mundo moderno, o tempo é um dos bens mais preciosos, e devolver o tempo aos nossos clientes é um elemento central em nossa estratégia de construir os carros mais desejados do mundo. O nosso DRIVE PILOT dá um grande passo para o conseguir e coloca-nos na vanguarda da inovação no campo crucialmente importante da condução autónoma. O DRIVE PILOT demonstra mais uma vez que nosso pioneirismo faz parte do nosso DNA. A certificação em Nevada marca o início de seu lançamento internacional e, com ela, o início de uma nova era.”
+Diz o Markus Schäfer, Membro do Conselho de Administração do Mercedes‑Benz Group AG, Diretor de Tecnologia, responsável por Desenvolvimento e Compras \cite{mercedes3}.
+\end{quote}
 
 Adicionalmente, algumas empresas, como Waymo e Cruise, atualmente operam serviços de carona com veículos com autonomia de nível 4 nos EUA - isso significa que os carros podem operar sem motorista ao volante sob certas condições, como dentro de uma área de serviço designada, portanto, já mapeadas e entendida pelo algoritmo de controle dos veículos\footnote{Mercedes-Benz wins race to bring Level 3 autonomous cars to US: \url{https://www.freethink.com/hard-tech/drive-pilot}.}.
 
@@ -427,7 +430,7 @@ As camadas representadas na figura acima (Figura \ref{figura_perception}) cada u
 
 
 
-\subsection{Sensores Usados em Veículos Autônomos} \label{sensores-a}
+\subsection{Sensores e suas funções em Veículos Autônomos} \label{sensores-a}
 
 Como apresentado nas seções anteriores, um VA é uma categoria de veículo que pode fazer sentido do que está ao seu redor e operar sem a necessidade de intervenção humana. Desse modo, para fazer sentido do que está em sua volta é necessário recursos para essa compreensão. Dentre esses recursos estão os sensores que são dispositivos que convertem eventos detectados ou mudanças no ambiente em uma medida numérica que pode então ser processada pelo componente de processamento central do veículo. 
 Os sensores são divididos em duas categorias com base em seu princípio operacional \cite{sensors}: 
@@ -447,8 +450,11 @@ Os sensores são divididos em duas categorias com base em seu princípio operaci
 \label{figura_compone}
 \end{figure}
 
+\begin{quote}
+Descrição da figura \ref{figura_compone}. Componentes de um VA: \textit{GPS}; permite a navegação pelo ambiente sem interação do humano. \textit{RADAR e Sensores Ultra Sônicos}; calcula a distância de obstáculos, determinada a velocidade, condição da pista e as atividades do VA no geral. \textit{LiDAR}; utiliza luz para medir a distância de objetos parados e em movimento. \textit{Computador Central}; analise os dados dos sensores e os mapeiam para entender as condições do ambiente. \textit{Câmara de Vídeo}; detecção de semáforos, sinais de trânsito e objetos em movimento.
+\end{quote}
 
-ADD DESCRIPTION 
+ 
 
 \subsubsection{Visão geral sobre os sensores}
 
@@ -467,6 +473,16 @@ A conjugação desses sensores (Figura \ref{figura-sensores}) é o que possibili
 
 \begin{figure}[H]
 \centering
+\includegraphics[width=10cm]{Figures/all-sense.png}
+\caption{Adequação de sensores para diferentes situações. \cite{sensors-yet}.}
+\label{all-sense}
+\end{figure}
+\begin{quote}
+Descrição da tabela \ref{all-sense}: Apresenta parâmetros para comparação entre sensores, sendo os parâmetros: \textit{Campo de visão, distância, entendimento de velocidade, resolução de ângulo, clima adverso, escuridão/distorção de luz, classificação de objetos e detecção da superfície de objetos.} Esses parâmetros são classificados de Ruim (1), Pobre (2), Aceitável (3) e Bom (4).
+\end{quote}
+
+\begin{figure}[H]
+\centering
 \includegraphics[width=12cm]{Figures/juncao-table.png}
 \caption{Comparação comum entre sensores.}
 \label{tabela-juncao}
@@ -475,15 +491,7 @@ A conjugação desses sensores (Figura \ref{figura-sensores}) é o que possibili
 Descrição da tabela \ref{tabela-juncao}: "\checkmark" Os sensores operam completamente sob condições específicas,
 "--" os sensores funcionam razoavelmente bem sob condições específicas, "x" os sensores não funcionam bem sob o fator específico em relação a outros sensores \cite{sensors}.
 \end{quote}
-\begin{figure}[H]
-\centering
-\includegraphics[width=10cm]{Figures/all-sense.png}
-\caption{Adequação de sensores para diferentes situações. \cite{sensors-yet}.}
-\label{all-sense}
-\end{figure}
-\begin{quote}
-Descrição da tabela \ref{all-sense}: Apresenta parâmetros para comparação entre sensores, sendo os parâmetros: Campo de visão, distância, entendimento de velocidade, resolução de ângulo, clima adverso, escuridão/distorção de luz, classificação de objetos e detecção da superfície de objetos. Esses parâmetros são classificados de Pior (1), Pobre (2), Aceitável (3) e Bom (4).
-\end{quote}
+
 \subsubsubsection{Câmeras}
 
 As Câmeras são uma das tecnologias mais utilizadas para observar o ambiente. Uma câmera produz imagens nítidas dos arredores detectando as luzes emitidas de uma superfície fotossensível (plano de imagem) usando uma lente de câmera (colocada na frente do sensor) \cite{sensors}. Os VAs possuem esses sensores de luz visível para fornecer uma visão de 360 graus do ambiente. As câmeras são ótimos na detecção e reconhecimento de objetos, fornecendo detalhes mais ricos e ajudando a entender os objetos sem ou com profundidade, que geralmente não são detectados por outros tipos de sensores. Dentre esses objetos estão: Sinais de trânsito (limite de velocidade, sinais de parada, sinais de ultrapassagem), semáforos, pedestres, animais são alguns exemplos de tais objetos sem ou com profundidade \cite{sensors-yet}. Esses dados coletados com as câmeras são enviados para os algoritmos baseados em IA para uso posterior, e criação de uma imagem 2D \cite{aplicacao2}. 
@@ -579,6 +587,20 @@ Assistente de Permanência na Faixa auxilia o motorista a manter o veículo na f
 
 
 A principal fonte dessa seção nos apresenta que um sistema de assistência ao estacionamento, também conhecido por Park Assist, tem como objetivo realizar as manobras de estacionamento de forma autónoma. Por meio de sensores (Figura \ref{figura-sensores}) ao redor do veículo, o sistema calcula o tamanho da folga (Figura \ref{cruzeiro}) e faz o movimento necessário para estacionar o veículo com total segurança. O carro assume o controle da direção e dos pedais, evitando qualquer obstáculo, mas o motorista deve estar sempre atento a qualquer imprevisto \cite{caio}.
+
+\subsection{Arquiteturas e Algoritmos}
+
+\subsubsection{Inteligência artificial}
+
+Ao longo da história, os seres humanos tiveram que aprender e realizar tarefas que dependiam da inteligência para serem executadas, desde cálculos a programação de software até a condução de um veículo. Muito esforço tem sido feito nas últimas décadas para desenvolver vários sistemas de computação capazes de substituir humanos nessas tarefas, e muito dessa pesquisa para construir esse tipo de sistema pode ser atribuído ao campo da inteligência artificial \cite{caio}. 
+Existem muitas definições para IA e seus sub campos, muitas das quais baseadas nas capacidades e comportamentos de um agente sob uma visão de domínio, o que significa que um agente pode ser definido operacionalmente em termos do ambiente em que atua.
+Um agente deve ter as seguintes características principais, como: Autonomia, o que significa que ele pode tomar a iniciativa e exercer controle sobre suas ações, e conduzir negociações com agentes humanos ou outros para atualizar e melhorar as regras básicas.
+Essas características são com base em estratégias de argumentação, o agente pode tomar decisões e tirar conclusões. Em geral, a inteligência artificial refere-se à capacidade de um computador ou máquina de imitar as habilidades da mente humana \cite{software-ia}. Existe uma relação entre os significados de inteligência artificial (IA), aprendizado de máquina (ML) e aprendizado profundo (DL), que é o seguinte: Os campos de inteligência artificial abrangem qualquer coisa relacionada a sistemas especialistas que tomam decisões com base em regras complexas.
+
+\subsubsubsection{Aprendizado de Máquina}
+
+O Aprendizado de Máquina está presente em muitas atividades da vida humana diária, por ex:. ao projetar a forma como uma rede social é apresentada a cada usuário, que tipo de anúncios e matérias são exibidos dependendo das preferências e consultas de pesquisa do usuário, separando e-mail confiável de spam e até câmeras de celular e teclado. Fazendo uso de algoritmos para coletar dados, permitindo que os computadores resolvam problemas e tomem decisões com base em seu próprio conhecimento adquirido ao longo do tempo \cite{caio}.
+
 
 
 \chapter{Conclusões} \label{concl}
