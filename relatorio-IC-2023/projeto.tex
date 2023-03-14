@@ -601,6 +601,74 @@ Essas características são com base em estratégias de argumentação, o agente
 
 O Aprendizado de Máquina está presente em muitas atividades da vida humana diária, por ex:. ao projetar a forma como uma rede social é apresentada a cada usuário, que tipo de anúncios e matérias são exibidos dependendo das preferências e consultas de pesquisa do usuário, separando e-mail confiável de spam e até câmeras de celular e teclado. Fazendo uso de algoritmos para coletar dados, permitindo que os computadores resolvam problemas e tomem decisões com base em seu próprio conhecimento adquirido ao longo do tempo \cite{caio}.
 
+\subsubsubsection{Aprendizagem Profunda}
+
+Uma das ferramentas mais eficazes no campo do Aprendizado de Máquina é o Deep Learning (DL). O DL insere dados de maneira hierárquica, incorporando propriedades globais e imutáveis cada vez mais abstratas em cada nível de processamento. O DL aprende as características de um conjunto de dados e as combina para atingir um objetivo específico. Para resolver problemas complicados, neste exemplo problemas com sistemas de tráfego inteligentes, a abordagem DL é aplicada. 
+
+O DL é composto por uma camada de entrada, uma camada oculta e uma camada de saída são os três principais componentes em geral \cite{software-ia}:
+
+\begin{enumerate}
+ \item \textbf{A camada de entrada:} A camada de entrada para DL trata uma grande quantidade de dados adquiridos de várias fontes. O grande conjunto de dados para modelagem de trânsito é diversificado e vem de várias fontes, como câmeras, LIDAR, sensores, sendo dados quase em tempo real fornecidos pelo equipamento colocado nos VAs \ref{figura-sensores}.
+\item \textbf{A camada oculta:} A camada oculta é responsável por processar os dados de entrada, extraindo informações úteis para criar novos atributos que são usados como entrada para o modelo DL. Cada camada dentro da camada oculta recebe regras que se concentram nos atributos de dados de entrada que são atualizados de acordo com a nova entrada de dados. O tamanho da camada oculta é expresso pelo número de neurônios ali presentes. Os neurônios têm uma influência importante na capacidade de aprendizado do algoritmo; muito poucos podem levar ao sub aprendizado e muitos podem levar à super adaptação.
+\item \textbf{A camada de Saída:} A camada de saída é responsável por exportar os valores ou vetores de valores que estejam de acordo com o formato exigido pelo problema e apresentar os resultados visuais com base nas medições estatísticas de erros.
+\end{enumerate}
+
+\subsubsection{Redes neurais artificiais aplicadas a veículos autônomos}
+
+A constante variação de imagem em ambientes relacionados à visibilidade do veículo levanta algumas questões relacionadas aos veículos autônomos, considerando que as tecnologias de processamento de imagem e reconhecimento de padrões podem falhar mesmo que funcionem bem em algumas situações. Esse problema pode ser demonstrado justamente porque essas tecnologias não se adaptam a diferentes ambientes \cite{caio}.
+
+\subsubsubsection{Redes Neurais Convolucionais}
+
+No caminho de processar e compreender os dados coletados pelos sensores dos VAs, temos as Redes Neurais Convolucionais em inglês, \textit{Convolutional Neural Networks} (CNN). Esse tipo de rede neural é utilizada para processamento de imagens por apresentar alta precisão na extração de características distintivas de imagens utilizando a função de convolução. É preciso entrada 2D e usar várias camadas ocultas para extrair recursos de alto nível. Depois de receber a entrada, ele identifica padrões úteis nas imagens com base na organização espacial dos pixels de entrada. Como nenhum pré-processamento é necessário, a CNN pode ser facilmente implantada. Em VAs, eles são usados para planejamento de caminhos e detecção de pedestres \cite{review-auto}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{Figures/CNN.png}
+\caption{Estrutura da CNN \cite{software-cnn}.}
+\label{CNN}
+\end{figure}
+
+As redes neurais convolucionais (Figura \ref{CNN}) incluem camadas de convolução, onde um filtro com pesos que podem ser aprendidos é convoluído sobre a entrada, camadas de agrupamento, que reduzem o tamanho espacial da entrada por subamostragem e camadas totalmente conectadas, que mapeiam sua entrada para dimensão de saída desejada. Como apresentado, as CNNs são comumente usadas para extrair recursos de dados de imagem, alcançando resultados bem-sucedidos no domínio da visão computacional \cite{software-review}.
+
+\subsubsubsection{R-CNN, fast R-CNN, faster R-CNN}
+
+Ao detectar o objeto em uma imagem com CNN convencional, o tamanho da camada de saída varia porque o número de ocorrências do objeto não é estático, fazendo a requisição de técnicas mais complexas para resolver em comparação com a classificação de imagens. /cite{software-cnn}.
+Por conta disso, quando tratamos sobre identificação de objetos em imagens, temos o \textit{Region Convolution Neural Network} (R-CNN) que usa um processo de pesquisa seletiva para identificar os limites e rótulos de cada objeto em uma imagem e criar uma caixa de limite ao redor deles. A caixa delimitadora é finalmente submetida a um modelo de regressão linear para encontrar coordenadas precisas para a caixa. Nos VAs, o RCNN é usado para detecção de pedestres, objetos e sinais de trânsito \cite{review-auto}.
+
+
+\subsubsubsection{Rede Neural Recorrente}
+
+As Rede Neural Recorrente no inglês \textit{Recurrent Neural Networks} (RNN) são algoritmos que trabalham bem com dados sequenciais e de séries temporais, e lida bem com problemas espaço-temporais. A rede neural recorrente mais simples pode ser considerada como uma extensão da rede neural totalmente conectada de duas camadas, onde a camada oculta tem um feedback. Esta pequena alteração permite modelar dados sequenciais de forma mais eficiente. A cada etapa da sequência, a RNN processa os dados de entrada da etapa atual juntamente com a memória das etapas anteriores, que é transportada nos neurônios ocultos anteriores.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{Figures/RNN.png}
+\caption{Estrutura de uma RNN \cite{software-cnn}.}
+\label{RNN}
+\end{figure}
+
+No entanto, RNN não pode ser usado para prever a próxima palavra em uma sequência, para detectar o comportamento dos motoristas com base no histórico anterior, prever o consumo de energia de uma casa, etc /cite{software-cnn}. Ademais, é difícil treinar essa rede para aprender sequências longas na prática devido ao desaparecimento ou explosão do gradiente, razão pela qual RNNs com “portas” são introduzidas. Em cada célula dessas redes, em vez de uma simples camada oculta totalmente conectada, uma arquitetura fechada é implantada. 
+
+As três variantes mais comuns de RNNs são memória de longo prazo no inglês \textit{Long Short term Memory} (LSTM), \textit{Time Delay Neural Network} (TDNN) e \textit{Gated Recurrent Unit} (GRU), que são discutidas a seguir.
+A LSTM e a unidade recorrente Gated (GRU) são as RNNs fechadas mais comumente usadas, e na previsão do comportamento de veículos, e os LSTMs são os modelos profundos mais usados \cite{software-review}.
+
+
+\subsubsubsection{Redes de Memória de Longo Curto Prazo}
+
+Nas RNNs convencionais, o efeito da entrada passada decai exponencialmente na saída à medida que percorre a conexão recorrente. Para solucionar essa perda de "memória" das informações já processadas as LSTMs são introduzidas, sendo consideradas melhores do que o RNN devido às suas características de lembrar seletivamente de padrões por um longo período de tempo, lidando com dados de séries temporais tanto para longa e curta duração \cite{software-cnn}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{Figures/LSTM.png}
+\caption{Estrutura de uma LSTM \cite{software-cnn}.}
+\label{LSTM}
+\end{figure}
+
+
+
+Para prever a intenção dos veículos, um LSTM é usado como um classificador de sequência. Nesta tarefa, uma sequência de características são alimentadas a células sucessivas de um LSTM. Em seguida, o estado oculto da última célula na sequência é mapeado para a dimensão de saída, a entrada é incorporada usando uma camada totalmente conectada e alimentada a uma camada de três camadas \cite{software-review}.
+\subsubsubsection{Gated Recurrent Unit}
+
 
 
 \chapter{Conclusões} \label{concl}
