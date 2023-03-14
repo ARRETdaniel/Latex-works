@@ -14,5 +14,5 @@
 #### [***Livro Scala***](/Latex-scala/danielTerraGomes.pdf) Paradigmas de Lings. de Programação. Prof. Ausberto S. Castro Vera.
 
 ## Copyright and License
-This Source Code is subject to the terms of the GNU Affero General Public License v3.0
-See the [***LICENSE***](LICENSE) file for more details.
+
+All right reserved.
