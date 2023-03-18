@@ -15,7 +15,7 @@ No decorrer desse ano de pesquisas foi possível desenvolver, de forma satisfat�
 \newpage
 \chapter{Objetivos} \label{Objetivos}
 \section{Objetivo Geral}\label{Objetivo Geral}
-Neste primeiro ano, os nossos objetivos foram documentar e entender o cenário de Veículos Autônomos no mundo e nesse processo contrastar com o brasileiro. De modo, a compreender o cenário automobilístico e suas expectativas para essa categoria de veículos. Portanto, foi buscado identificar as principais diferenças entre esses veículos e o que se espera economicamente e tecnologicamente dessa tecnologia, tanto para o Brasil e o mundo. Por fim, mapeamos quais são os principais recursos tecnológicos que fazem esses veículos possíveis. 
+Neste primeiro ano, os nossos objetivos foram documentar e entender o cenário de Veículos Autônomos no mundo e nesse processo contrastar com o brasileiro. De modo a compreender o cenário automobilístico e suas expectativas para essa categoria de veículos. Ademais, foi buscado identificar as principais diferenças entre esses veículos e o que se espera economicamente e tecnologicamente dessa tecnologia, tanto para o Brasil e o mundo. Por fim, mapeamos quais são os principais recursos tecnológicos que fazem esses veículos possíveis. 
 
 \section{Objetivos em Específico}\label{Objetivos Específicos}
 \begin{enumerate}
@@ -624,12 +624,8 @@ O DL é composto por uma camada de entrada, uma camada oculta e uma camada de sa
 
 \subsubsection{Redes neurais artificiais aplicadas a veículos autônomos}
 
-ADD INFOO HEREEEE----------------
-
-
-
-A constante variação de imagem em ambientes relacionados à visibilidade do veículo levanta algumas questões relacionadas aos veículos autônomos, considerando que as tecnologias de processamento de imagem e reconhecimento de padrões podem falhar mesmo que funcionem bem em algumas situações. Esse problema pode ser demonstrado justamente porque essas tecnologias não se adaptam a diferentes ambientes \cite{caio}.
-ADD INFOO HEREEEE----------------
+A constante variação de imagem em ambientes relacionados à visibilidade do veículo levanta algumas questões relacionadas aos VAs, considerando que as tecnologias de processamento de imagem e reconhecimento de padrões podem falhar mesmo que funcionem bem em algumas situações. Esse problema pode ser demonstrado justamente porque essas tecnologias podem não se adaptam bem a diferentes ambientes \cite{caio}.
+Desse modo, nessa seção iremos tratar dos diferentes tipos de algoritmos aplicados aos VAs e seus objetivos na identificação de imagens, processamentos, e classificação.
 
 \subsubsubsection{Redes Neurais Convolucionais}
 
@@ -661,7 +657,7 @@ As Rede Neural Recorrente no inglês \textit{Recurrent Neural Networks} (RNN) s�
 \label{RNN}
 \end{figure}
 
-No entanto, RNN não pode ser usado para prever a próxima palavra em uma sequência, para detectar o comportamento dos motoristas com base no histórico anterior, prever o consumo de energia de uma casa, etc /cite{software-cnn}. Ademais, é difícil treinar essa rede para aprender sequências longas na prática devido ao desaparecimento ou explosão do gradiente, razão pela qual RNNs com “portas” são introduzidas. Em cada célula dessas redes, em vez de uma simples camada oculta totalmente conectada, uma arquitetura fechada é implantada. 
+No entanto, RNN não pode ser usado para prever a próxima palavra em uma sequência, para detectar o comportamento dos motoristas com base no histórico anterior, prever o consumo de energia de uma casa, etc \cite{software-cnn}. Ademais, é difícil treinar essa rede para aprender sequências longas na prática devido ao desaparecimento ou explosão do gradiente, razão pela qual RNNs com “portas” são introduzidas. Em cada célula dessas redes, em vez de uma simples camada oculta totalmente conectada, uma arquitetura fechada é implantada. 
 
 As três variantes mais comuns de RNNs são memória de longo prazo no inglês \textit{Long Short term Memory} (LSTM), \textit{Time Delay Neural Network} (TDNN) e \textit{Gated Recurrent Unit} (GRU), que são discutidas a seguir.
 A LSTM e a unidade recorrente Gated (GRU) são as RNNs fechadas mais comumente usadas, e na previsão do comportamento de veículos, e os LSTMs são os modelos profundos mais usados \cite{software-review}.
@@ -686,6 +682,18 @@ Para prever a intenção dos veículos, um LSTM é usado como um classificador d
 
 
 \chapter{Conclusões} \label{concl}
+
+O \textit{objetivo} \ref{Objetivos} desse primeiro ano de pesquisa foi realizar um estudo da bibliografia existente para entender e mapear as perspectivas e tecnologias dos Veículos Autônomos, fazendo o paralelo do Brasil com o que há de melhor da área no mundo. 
+
+Desse modo, foi possível identificar as perspectivas sobre implementação dos veículos autônomos (VAs), assim como os seus benefícios, e suas desvantagens, áreas de aplicação, e os países mais adequados para sua aplicação, e suas tendências de mercado para o Brasil e o mundo.
+Ademais, apresentamos e estruturamos os diferentes níveis de condução autonomia, entendemos e apresentamos quais objetivos econômicos e tecnológicos as principais empresas pelo mundo tem com essa tecnologia.
+Além do mais, mapeamos as tecnologias essenciais para o funcionamento de um VA, e a partir dos levantamentos bibliográficos foi possível apresentar de maneira didática os principais Software e Hardware que fazem dessa tecnologia possível.
+Ao fazer isso, realizamos todos os \textit{Objetivos} \ref{Objetivos} propostos no \textit{Plano de Trabalho}.
+
+Todavia, esse projeto buscou trazer um aprendizado dos conhecimentos teóricos sobre os VAs, visando um segundo ano de projeto onde será possível fazer a  aplicação dos softwares apresentados neste relatório.
+
+Portanto, apesar do sucesso em mapear as perspectivas e tecnologias dos VAs, precisamos colocar esses conhecimentos relacionados à parte de softwares em prática.
+
 
 
 \chapter{Perspectiva de continuidade} \label{continuidade}
