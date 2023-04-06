@@ -121,7 +121,7 @@ Diante disso, uma das propostas para suprir essa demanda de transporte seria a i
 Entretanto, ainda seria necessário lidar com problemas como: a disputa de espaço nas vias, e os engarrafamentos crônicos das cidades. Por exemplo, de acordo com informações do levantamento domiciliar realizado durante a elaboração do último Plano Diretor de Transporte Urbano (PDTU), o tempo médio de deslocamento do centro de São Gonçalo a Niterói é de 50 minutos, devido a problemas relacionados ao grande fluxo de veículos, sendo no transporte público o tempo gasto de quase 25\% maior \cite{rj_transito}.
 
 
-No sentido de solucionar problemas como o exemplificado, um estudo de caso considerando um cenário onde veículos autônomos têm que lidar com congestionamentos, levou à conclusão de que o aumento do número de veículos autônomos, totalmente conectados dirigindo em pelotões dentro de uma rede, reduz os atrasos e congestionamentos, como visto na Figura \ref{congestionamento}. 
+No sentido de solucionar problemas como o exemplificado, um estudo de caso considerando um cenário onde veículos autônomos têm que lidar com congestionamentos, levou à conclusão de que o aumento do número de veículos autônomos, totalmente conectados dirigindo em pelotões dentro de uma rede, reduz os atrasos e congestionamentos \cite{conge}, como visto na Figura \ref{congestionamento}. 
 
 \begin{figure}[H]
 \centering
@@ -136,7 +136,7 @@ Descrição da figura \ref{congestionamento}: Eixo y: cor vermelha (parte debaix
 
 No estudo, os VAs mantiveram ou melhoraram o tráfego da rota escolhida. Isso foi possível pois, o veículo líder do pelotão foi capaz de antecipar mudanças nos sinais e comunicá-las com os veículos de trás, permitindo um melhor desempenho em cruzamentos sinalizados \cite{conge}.
 
-A seguir, na Figura \ref{mapa_resumo}, apresentamos um mapa da visão geral dos benefícios, riscos e mudanças incertas com a aplicação dos VAs na sociedade, de modo a termos uma ideia do que esperar dessa categoria de veículos:
+A seguir, na figura \ref{mapa_resumo}, apresentamos um mapa da visão geral dos benefícios, riscos e mudanças incertas com a aplicação dos VAs na sociedade, de modo a termos uma ideia do que esperar dessa categoria de veículos:
 
 \begin{figure}[H]
 \centering
@@ -391,7 +391,7 @@ Decorrente  do aumento da automação industrial, há uma previsão do mercado m
 Ainda na perspectiva de crescimento econômico, e investimento no setor automobilístico em relação aos VAs. O CEO da GM, Mary Barra, diz estar investindo agressivamente no mercado de VA, com um plano de investimento de US \$35 bilhões para veículos movidos a bateria e autônomos. Tendo como expectativa arrecadar \$50 bilhões até o final da década \cite{gm}.
 
 Além disso, espera-se que as amplicações dos VAs influenciem diferentes aspectos do sistema econômico, além do industrial, como apresenta a Figura \ref{figura_resumo}. As empresas que não conseguirem se adaptar a essas mudanças 
- de mercado terão perdas significativas. Em geral, espera-se que o valor econômico dos VAs seja bem significativo e aumente com o tempo, abrindo novas oportunidades de negócios e profissões.
+ de mercado terão perdas significativas. Em geral, espera-se que o valor econômico dos VAs seja bem significativo e aumente com o tempo, abrindo novas oportunidades de negócios e profissões \cite{mundobrasil}.
 
 \begin{figure}[H]
 \centering
@@ -417,7 +417,7 @@ Nesta seção discutiremos e apresentaremos as principais Tecnologias de Softwar
 \subsection{Como um veículo é automatizado} \label{auto}
 Nesta seção cobrimos como um veículo é automatizado, seus componentes principais para se tornar um VA. Dentre as características principais de um VA, que encontramos durante nossas pesquisas, estão: a percepção, planejamento e controle.
 
-Como representado na Figura \ref{figura_perception} um veículo necessita de 3 componentes essenciais para alcançar algum nível de automação SAE \ref{SAE-level}, sendo esses:
+Como representado na Figura \ref{figura_perception} um veículo necessita de 3 componentes essenciais para alcançar algum nível de automação SAE \ref{SAE-level}, sendo esses \cite{sensors-yet}:
 
 
 \begin{enumerate}
@@ -614,16 +614,16 @@ Nesta subseção apresentaremos os Software, Algoritmos e Arquiteturas que possi
 Ao longo da história, os seres humanos tiveram que aprender e realizar tarefas que dependiam do seus próprios conhecimentos e inteligência para serem executadas, desde empilhar gravetos até cálculos matemáticos, programação de software, e no nosso caso condução de um veículo. Diante disso, muito esforço tem sido feito nas últimas décadas para desenvolver vários sistemas de computação capazes de substituir humanos nessas tarefas, e muitas dessas pesquisas para construir esses tipos de sistemas podem ser atribuídas ao campo da inteligência artificial (IA) \cite{caio}. 
 Existem muitas definições para IA e seus subcampos, muitas das quais baseadas nas capacidades e comportamentos de um agente sob uma visão de domínio, o que significa que um agente pode ser definido operacionalmente em termos do ambiente em que atua.
 Um agente, para o cenário de um VA, deve ter a seguinte característica principal: a autonomia, o que significa que deve tomar a iniciativa e exercer controle sobre suas ações, e conduzir negociações com agentes humanos ou outros VAs de modo a continuar com o seu DDT.
-Essa característica é com base em estratégias de argumentação, o agente, portanto, pode tomar decisões e tirar conclusões. 
+Essa característica é com base em estratégias de argumentação, o agente, portanto, pode tomar decisões e tirar conclusões \cite{software-ia}. 
 
-Em geral, a inteligência artificial refere-se à capacidade de um computador ou máquina de imitar as habilidades da mente humana \cite{software-ia} como percepção visual, reconhecimento de fala, tomada de decisão e processamento de linguagem natural. O campo da IA envolve a criação de algoritmos, modelos e software que podem aprender e se adaptar a novos dados e situações, permitindo que as máquinas executem tarefas que, de outra forma, exigiriam intervenção humana. Tendo muitas aplicações diferentes, incluindo aprendizado de máquina (apresentado em \ref{machine}) e aprendizagem profunda (apresentado em \ref{Profunda}), visão computacional, processamento de linguagem natural, robótica, entre outros, apresentados nesse relatório, que fazem parte de um VA. O aprendizado de máquina e aprendizagem profunda, em particular, são um subconjuntos da IA que envolve algoritmos de treinamento para reconhecer padrões nos dados e fazer previsões ou decisões com base nesses dados. Esse processo é frequentemente usado em campos como análise de dados, análise fincanceira, veículos autônomos, segurança cibernética, etc \cite{software-review, software-cnn}.
+Em geral, a inteligência artificial refere-se à capacidade de um computador ou máquina de imitar as habilidades da mente humana, como: percepção visual, reconhecimento de fala, tomada de decisão e processamento de linguagem natural \cite{software-ia}. O campo da IA envolve a criação de algoritmos, modelos e software que podem aprender e se adaptar a novos dados e situações, permitindo que as máquinas executem tarefas que, de outra forma, exigiriam intervenção humana. Tendo muitas aplicações diferentes, incluindo aprendizado de máquina (apresentado em \ref{machine}) e aprendizagem profunda (apresentado em \ref{Profunda}), visão computacional, processamento de linguagem natural, robótica, entre outros que fazem parte de um VA. O aprendizado de máquina e aprendizagem profunda, em particular, são um subconjuntos da IA que envolve algoritmos de treinamento para reconhecer padrões nos dados e fazer previsões ou decisões com base nesses dados. Esse processo é frequentemente usado em campos como análise de dados, análise fincanceira, veículos autônomos, segurança cibernética, etc \cite{software-review, software-cnn}.
 
 
 \subsubsubsection{Aprendizado de Máquina} \label{machine}
 
 O Aprendizado de Máquina é um subcampo da inteligência artificial \ref{ia} que se concentra no desenvolvimento de algoritmos e modelos estatísticos que permitem que os sistemas de computador aprendam automaticamente com os dados e melhorem seu desempenho em uma determinada tarefa sem serem explicitamente programados. Em outras palavras, envolve o treinamento de programas de computador para reconhecer padrões e relacionamentos nos dados e, em seguida, usar esse conhecimento para fazer previsões ou decisões \cite{review-auto}. Os algoritmos de aprendizado de máquina podem ser usados em uma ampla variedade de aplicativos, como reconhecimento de imagem, processamento de linguagem natural, detecção de fraude, sistemas de recomendação e análise preditiva. Alguns tipos comuns de aprendizado de máquina incluem aprendizado supervisionado, aprendizado não supervisionado e aprendizado por reforço \cite{software-review, software-cnn}.
 
-Diante disso, podemos identificar que o Aprendizado de Máquina está presente em muitas atividades diárias da vida humana, por ex:. ao projetar a forma como uma rede social é apresentada a cada usuário, que tipo de anúncios e matérias são exibidos dependendo das preferências e consultas de pesquisa do usuário, separando e-mail confiável de spam e até câmeras de celular e teclado. Tudo isso, fazendo uso de algoritmos para coletar dados, permitindo que os computadores resolvam problemas e tomem decisões com base em seu próprio conhecimento adquirido ao longo do tempo \cite{caio}. 
+Diante disso, podemos identificar que o Aprendizado de Máquina está presente em muitas atividades diárias da vida humana. Por exemplo, ao projetar a forma como uma rede social é apresentada a cada usuário, que tipo de anúncios e matérias são exibidos dependendo das preferências e consultas de pesquisa do usuário, separando e-mail confiável de spam e até câmeras de celular e teclado. Tudo isso, fazendo uso de algoritmos para coletar dados, permitindo que os computadores resolvam problemas e tomem decisões com base em seu próprio conhecimento adquirido ao longo do tempo \cite{caio}. 
 
 Desse modo, nos VAs o aprendizado de máquina pode ser usado para funções como o ADAS, apresentado em \ref{adas}, para aprimorar todo o desempenho de um veículo. O ML desempenha diversas funções na operação rotineira de um VA, como: classificação de objetivos, controle dos pedais, faróis, sistemas de assistências \ref{adas} \cite{aplicacao2}.
 
@@ -631,7 +631,7 @@ Desse modo, nos VAs o aprendizado de máquina pode ser usado para funções como
 
 O Aprendizado Profundo é um subconjunto do aprendizado de máquina que envolve o treinamento de redes neurais artificiais para aprender com grandes quantidades de dados. O termo "profundo" refere-se às múltiplas camadas que compõem essas redes neurais, que são projetadas para imitar a estrutura do cérebro humano. No aprendizado profundo, a rede neural é treinada em um grande conjunto de dados usando um algoritmo que ajusta os pesos da rede para minimizar a diferença entre a saída da rede e a saída desejada. Esse processo é repetido várias vezes até que a rede seja capaz de classificar ou prever com precisão novos dados que nunca viu antes \cite{software-cnn}. O aprendizado profundo revolucionou muitos campos, incluindo visão computacional, processamento de linguagem natural e reconhecimento de fala, entre outros \cite{review-auto, software-review}. 
 
-Sendo o Deep Learning (DL) ou Aprendizado Profundo uma das ferramentas mais eficazes no campo do Aprendizado de Máquina. Como apresentado, o DL insere dados de maneira hierárquica, incorporando propriedades globais e imutáveis cada vez mais abstratas em cada nível de processamento. O DL aprende as características de um conjunto de dados e as combina para atingir um objetivo específico.
+Sendo o Aprendizado Profundo ou \textit{Deep Learning} (DL), em inglês, uma das ferramentas mais eficazes no campo do Aprendizado de Máquina. Como apresentado, o DL insere dados de maneira hierárquica, incorporando propriedades globais e imutáveis cada vez mais abstratas em cada nível de processamento. O DL aprende as características de um conjunto de dados e as combina para atingir um objetivo específico \cite{software-cnn}.
 
 Essas múltiplas camadas no DL para perceptiva de um VA são: camada de entrada, uma camada oculta e uma camada de saída. Listadas \cite{software-ia}:
 
@@ -681,7 +681,7 @@ Por conta disso, quando tratamos sobre identificação de objetos em imagens, te
 
 \subsubsubsection{Rede Neural Recorrente} \label{rnn}
 
-As Rede Neural Recorrente no inglês \textit{Recurrent Neural Networks} (RNN) são algoritmos que trabalham bem com dados sequenciais e de séries temporais, e lida bem com problemas espaço-temporais. A rede neural recorrente mais simples pode ser considerada como uma extensão da rede neural totalmente conectada de duas camadas, onde a camada oculta tem um feedback. Esta pequena alteração permite modelar dados sequenciais de forma mais eficiente. A cada etapa da sequência, a RNN processa os dados de entrada da etapa atual juntamente com a memória das etapas anteriores, que é transportada nos neurônios ocultos anteriores, como ilustrado na Figura \ref{RNN}.
+As Rede Neural Recorrente ou\textit{Recurrent Neural Networks} (RNN), no inglês,  são algoritmos que trabalham bem com dados sequenciais e de séries temporais, e lida bem com problemas espaço-temporais. A rede neural recorrente mais simples pode ser considerada como uma extensão da rede neural totalmente conectada de duas camadas, onde a camada oculta tem um feedback. Esta pequena alteração permite modelar dados sequenciais de forma mais eficiente \cite{software-cnn}. A cada etapa da sequência, a RNN processa os dados de entrada da etapa atual juntamente com a memória das etapas anteriores, que é transportada nos neurônios ocultos anteriores, como ilustrado na Figura \ref{RNN}.
 
 \begin{figure}[H]
 \centering
@@ -692,7 +692,7 @@ As Rede Neural Recorrente no inglês \textit{Recurrent Neural Networks} (RNN) s�
 
 No entanto, RNN não pode ser usado para prever a próxima palavra em uma sequência, para detectar o comportamento dos motoristas com base no histórico anterior, prever o consumo de energia de uma casa, etc \cite{software-cnn}. Ademais, é difícil treinar essa rede para aprender sequências longas na prática devido ao desaparecimento ou explosão do gradiente, razão pela qual RNNs com “portas” são introduzidas. Em cada célula dessas redes, em vez de uma simples camada oculta totalmente conectada, uma arquitetura fechada é implantada. 
 
-As três variantes mais comuns de RNNs são memória de longo prazo no inglês \textit{Long Short term Memory} (LSTM), \textit{Time Delay Neural Network} (TDNN) e \textit{Gated Recurrent Unit} (GRU), que são discutidas a seguir.
+As três variantes mais comuns de RNNs são a Memória de Longo Curto Prazo no inglês \textit{Long Short term Memory} (LSTM), \textit{Time Delay Neural Network} (TDNN) e \textit{Gated Recurrent Unit} (GRU).
 A LSTM e a unidade recorrente Gated (GRU) são as RNNs fechadas mais comumente usadas, e na previsão do comportamento de veículos, e os LSTMs são os modelos profundos mais usados \cite{software-review}.
 
 
